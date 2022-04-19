@@ -1,1 +1,1 @@
-* This is supposed to be an example of mocha API testing
+# This is supposed to be an example of mocha API testing
