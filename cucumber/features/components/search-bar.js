@@ -15,6 +15,17 @@ class SearchBar {
         return $(`${this.parentLocator} .ipc-button`);
     }
 
+    async searchText(){
+      const input = this.input;
+      const mag = this.mag;
+      
+      await input.click();
+
+      await inputElem.setValue()
+
+      await mag.click();
+    }
+
     /**
      * Method that opens the category menu and selects 1
      */
