@@ -1,15 +1,17 @@
 Feature: Movie Details Page
 
-    Scenario: Navigate and search the "Batman Movie"
+    Background: Navigate and search "The Batman" Movie
         Given I am on the home page
         And on the navbar I search "The Batman"
-        When on the result page I select "The Batman"
-        Then I should see the details of the movie "The Batman"
+        When on the result page I select "The Batman" 
+        And I see the details of the movie "The Batman"
 
+    Scenario:
+        Then I should see that the Director is "Matt Reeves" & the actor is "Robert Pattison"
 
-    Examples:
-      | Category    |
-      | All         | 
-      | Titles      |
-      | TV Episodes |
+    Scenario:
+        Then I should see that the IMDB Ranking is "8.1" Stars
+
+    Scenario:
+        Then I should see that the movie genres are "Action", "Crime" & "Drama"
         
