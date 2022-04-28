@@ -43,15 +43,25 @@ const pages = {
 
 Given(/^I am on the (\w+) page$/, async (page) => await pages[page].open())
 
-When(/^on the navbar I search "(The Batman)"$/, (movie) => {
-  NavBar.searchBar.input.setText(movie)
-})
+When(/^on the navbar I search "(The Batman)"$/, (movie)=> {
+  MovieList.rowHyperlink(movie)
+});
 
-//Crear then basado en los
-Then()
+When(/^on the list page click "(The Batman) (2022)"$/, (movie, year) => {
+   MovieList.movieLink(movie, year).click()
+ });
 
-Then(
-  /^I should see the category dropdown now matches "(Todo|Títulos|Episodios de TV)"$/,
+/**
+ * Scenario: Validate the Director is Matt Reeves & and than Robert Pattison is the actor
+        Given I am on the home page
+        And on the navbar I search "The Batman"
+        Then I click the option "The Batman 2022"
+        And verify if we are in "The Batman 2022" the page
+        And verify if the Dirección is "Matt Reeves"
+        And verify if "Rober Pattinson" is the Actor
+ */
+
+Then(  /^I should see the category dropdown now matches "(Todo|Títulos|Episodios de TV)"$/,
   async (category) => {
     // This is a destructuring asignment
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment

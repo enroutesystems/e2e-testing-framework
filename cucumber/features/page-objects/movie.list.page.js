@@ -8,9 +8,14 @@ class MovieList {
         return $('....')
     }
 
+    movieLink(name, year){
+        return $(this.parentLocator).$(`a=${name} (${year})`)
+    }
+
     rowHyperlink(text) {
         return $(this.parentLocator).$(`.result_text=${text}`);
     }
+
 }
 
 module.exports = new MovieList;

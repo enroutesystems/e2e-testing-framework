@@ -9,4 +9,4 @@ class MovieResultPage extends Page {
   }
 }
 
-module.exports = new HomePage()
+module.exports = new MovieResultPage()
