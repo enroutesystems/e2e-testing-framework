@@ -3,9 +3,9 @@ Feature: Movie Details Page
     Scenario: Validate the Director is Matt Reeves & and than Robert Pattison is the actor
         Given I am on the home page
         When on the navbar I search "The Batman"
-        When on the list page click "The Batman 2022"
-        # Then verify if we are in "The Batman 2022" the page
-        # And verify if the Dirección is "Matt Reeves"
+        And on the list page click "The Batman 2022"
+        Then verify if we are in thebatman page
+        # And verify if the "Dirección" is "Matt Reeves"
         # And verify if "Rober Pattinson" is the Actor
     
     # Scenario: Validate the IMDB Ranking is 8.1 Stars
