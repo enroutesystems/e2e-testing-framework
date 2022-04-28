@@ -1,9 +1,11 @@
 For the next exercise, you need a to create a new Feature, step defs and Page objects:
         Setup: Search Batman on the menu and select the newer movie "The Batman"
         Scenarios:
-            1. Validate the Director is Matt Reeves & and than Robert Pattison is 1 of the "Stars"
+            1. Validate the Director is Matt Reeves & and than Robert Pattison is the actor
             2. Validate the IMDB Ranking is 8.1 Stars
             3. Validate that the movie genres are "Action", "Crime" & "Drama"
+
+// si alcanzamos
         Extra Points Scenario: (You might want to read jw player docs)[https://developer.jwplayer.com/jwplayer/docs/jw8-javascript-api-reference]
             - Click on play trailer and then a new page should be open
             - Start the player reproduction
@@ -11,6 +13,7 @@ For the next exercise, you need a to create a new Feature, step defs and Page ob
             - WaitUntil the ad end
             - check that the player "Status" is "playing"
 
+// Mañana
 Implement Allure Reports: https://webdriver.io/docs/allure-reporter
     Points to conciderate:
      1. Save the reports on a specific folder

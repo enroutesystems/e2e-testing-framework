@@ -10,6 +10,7 @@ class SearchBar {
     get mag() {
         return $(`${this.parentLocator} #iconContext-magnify`);
     }
+    
     get categoryDropdown() {
         return $(`${this.parentLocator} .ipc-button`);
     }
