@@ -25,7 +25,9 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        // 'path/to/excluded/files'
+        'Luis Roberto Peña/cucumber/features/**/*.feature',
+        'luis-dominguez/cucumber/features/**/*.feature',
+        'ricardo-macias/cucumber/features/**/*.feature',
     ],
     //
     // ============
@@ -326,4 +328,13 @@ exports.config = {
     */
     // onReload: function(oldSessionId, newSessionId) {
     // }
+    capabilities: [{
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            args: [],
+            prefs: {
+                'intl.accept_languages': 'en,EN'
+            }
+        }
+    }]
 }
