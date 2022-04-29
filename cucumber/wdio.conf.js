@@ -279,10 +279,8 @@ exports.config = {
    * @param {number}             result.duration  duration of scenario in milliseconds
    * @param {Object}             context          Cucumber World object
    */
-  afterStep: async function (step, scenario, result, context) {
-    if (result.error) {
-      browser.takeScreenshot()
-    }
+  afterStep: async function (test) {
+    await browser.saveScreenshot('./allure-results/error-screenshot.png')
   },
   /**
    *

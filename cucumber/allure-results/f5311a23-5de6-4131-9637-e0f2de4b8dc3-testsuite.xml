@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651267156216' stop='1651267165027'>
-    <name>Movie Genre: Validate that the movie genres are "Action", "Crime" &amp; "Drama"</name>
-    <title>Movie Genre: Validate that the movie genres are "Action", "Crime" &amp; "Drama"</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651271213298' stop='1651271231632'>
+    <name>Movie Ranking: Validate the IMDB Ranking is 8.1 Stars</name>
+    <title>Movie Ranking: Validate the IMDB Ranking is 8.1 Stars</title>
     <test-cases>
-        <test-case start='1651267156216' status='passed' stop='1651267156217'>
+        <test-case start='1651271213300' status='passed' stop='1651271213302'>
             <name></name>
             <title></title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -17,13 +17,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651267156217' status='passed' stop='1651267158046'>
+        <test-case start='1651271213302' status='passed' stop='1651271219158'>
             <name>Given I am on the home page</name>
             <title>Given I am on the home page</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -31,13 +31,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651267158046' status='passed' stop='1651267160361'>
+        <test-case start='1651271219158' status='passed' stop='1651271222164'>
             <name>When on the navbar I search "The Batman"</name>
             <title>When on the navbar I search "The Batman"</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -45,13 +45,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651267160361' status='passed' stop='1651267162388'>
-            <name>Then on the list page click "The Batman"</name>
-            <title>Then on the list page click "The Batman"</title>
+        <test-case start='1651271222164' status='passed' stop='1651271227873'>
+            <name>And on the list page click "The Batman"</name>
+            <title>And on the list page click "The Batman"</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -59,13 +59,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651267162388' status='passed' stop='1651267165026'>
-            <name>And verify if we are in thebatman page</name>
-            <title>And verify if we are in thebatman page</title>
+        <test-case start='1651271227873' status='passed' stop='1651271231217'>
+            <name>Then verify if we are in thebatman page</name>
+            <title>Then verify if we are in thebatman page</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -73,13 +73,27 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651267165026' status='passed' stop='1651267165026'>
+        <test-case start='1651271231217' status='passed' stop='1651271231630'>
+            <name>And validate the ranking in the IMDB is "8.1"</name>
+            <title>And validate the ranking in the IMDB is "8.1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651271231630' status='passed' stop='1651271231631'>
             <name></name>
             <title></title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>

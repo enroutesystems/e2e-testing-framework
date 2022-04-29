@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651266419886' stop='1651266426680'>
-    <name>Movie Details Page: Validate the Director is Matt Reeves &amp; and than Robert Pattison is the actor</name>
-    <title>Movie Details Page: Validate the Director is Matt Reeves &amp; and than Robert Pattison is the actor</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651271231624' stop='1651271243023'>
+    <name>Movie Genre: Validate that the movie genres are "Action", "Crime" &amp; "Drama"</name>
+    <title>Movie Genre: Validate that the movie genres are "Action", "Crime" &amp; "Drama"</title>
     <test-cases>
-        <test-case start='1651266419887' status='passed' stop='1651266419892'>
+        <test-case start='1651271231624' status='passed' stop='1651271231624'>
             <name></name>
             <title></title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -17,13 +17,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651266419893' status='passed' stop='1651266424098'>
+        <test-case start='1651271231624' status='passed' stop='1651271234080'>
             <name>Given I am on the home page</name>
             <title>Given I am on the home page</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -31,13 +31,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651266424098' status='passed' stop='1651266426678'>
+        <test-case start='1651271234081' status='passed' stop='1651271237290'>
             <name>When on the navbar I search "The Batman"</name>
             <title>When on the navbar I search "The Batman"</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -45,35 +45,27 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651266426678' status='broken' stop='1651266426679'>
-            <name>And on the list page click "The Batman 2022"</name>
-            <title>And on the list page click "The Batman 2022"</title>
+        <test-case start='1651271237291' status='passed' stop='1651271240054'>
+            <name>Then on the list page click "The Batman"</name>
+            <title>Then on the list page click "The Batman"</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
             </parameters>
             <steps/>
             <attachments/>
-            <failure>
-                <message>Step "on the list page click "The Batman 2022"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
-                <stack-trace>Step "on the list page click "The Batman 2022"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
-                	at Feature(C:\Users\German\Documents\projects\enroute\testing\fork\e2e-testing-framework\cucumber\features\movies-details.feature):1:1
-                	at Scenario(Validate the Director is Matt Reeves &amp; and than Robert Pattison is the actor):3:5
-                	at Step(on the list page click "The Batman 2022"):6:9
-                </stack-trace>
-            </failure>
         </test-case>
-        <test-case start='1651266426679' status='undefined'>
-            <name>Then verify if we are in thebatman page</name>
-            <title>Then verify if we are in thebatman page</title>
+        <test-case start='1651271240054' status='passed' stop='1651271242607'>
+            <name>And verify if we are in thebatman page</name>
+            <title>And verify if we are in thebatman page</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
@@ -81,13 +73,27 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651266426679' status='passed' stop='1651266426680'>
+        <test-case start='1651271242607' status='passed' stop='1651271243023'>
+            <name>And validate if movie has genre Crime and number 2</name>
+            <title>And validate if movie has genre Crime and number 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651271243023' status='passed' stop='1651271243023'>
             <name></name>
             <title></title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome'/>
