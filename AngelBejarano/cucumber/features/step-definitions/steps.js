@@ -40,12 +40,6 @@ Then(
 
 //---------------BATMAN----------------
 
-// Scenario: In Batman details I should validate that the movie genres are "Action", "Crime" & "Drama"
-// Given I am on the Home page
-// When I search on the navbar "Batman"
-// And In the search page I click on "Batman" Title
-// Then In "Batman" details page I should Validate that the movie genres are "Action", "Crime" & "Drama"
-
 When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
   //buscar batman y dar click en buscar
 
