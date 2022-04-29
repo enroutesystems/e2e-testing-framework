@@ -48,11 +48,6 @@ When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
 
   await searchInput.setValue(movie);
   await searchBtn.click();
-
-  // async (category) => await NavBar.searchBar.selectCategory(category));
-  // //...
-  // const batmanLink = MovieList.rowHyperlink(movie);
-  // batmanLink.click();
 });
 
 When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
