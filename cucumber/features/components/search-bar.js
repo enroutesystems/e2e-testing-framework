@@ -4,41 +4,61 @@ class SearchBar {
     }
 
     get input() {
-        return $(`${this.parentLocator} #suggestion-search`);
+        return $(`${this.parentLocator} .react-autosuggest__input`);
+        //return $(`.react-autosuggest__input`);
+
     }
 
-    get mag() {
-        return $(`${this.parentLocator} #iconContext-magnify`);
-    }
+    // get mag() {
+    //     return $(`${this.parentLocator} #iconContext-magnify`);
+    // }
     
     get categoryDropdown() {
         return $(`${this.parentLocator} .ipc-button`);
     }
 
     get moviesListDropdown() {
-        return $(`${this.parentLocator} .react-autosuggest__suggestions-list`)
+       // return $(`${this.parentLocator} .react-autosuggest__suggestions-list`)
+       return $(`.react-autosuggest__suggestions-list`)
     }
 
     get movieLi(){
         return $(`${this.parentLocator} #react-autowhatever-1--item-0`)
     }
 
+
+    // async searchMovie(movie){
+    //     const input = this.input;
+    //     // Waits for clickable and then clicks
+    //     await input.waitForClickable({ 
+    //         timeout: 2500, 
+    //         timeoutMsg: 'input is not able to be clickable' 
+    //     });
+    //     await input.click();
+
+    //     const value = movie
+    //     const arrValue = [...value]; // This is for converting string to charArray
+
+    //     for(let i = 0 ; i< arrValue.length; i++) {
+    //         browser.keys(arrValue[i] );
+    //         bro
+
     async searchMovie(movie){
-        const input = this.input;
+        const input = await this.input;
         // Waits for clickable and then clicks
         await input.waitForClickable({ 
             timeout: 2500, 
             timeoutMsg: 'input is not able to be clickable' 
         });
         await input.click();
+        await input.setValue(movie)
 
-        input.setvalue(movie)
     }
 
     async selectMovie(movie) {
         const moviesList = await this.moviesListDropdown;
         await moviesList.waitForDisplayed({
-            timeout: 20000,
+            timeout: 2500,
             timeoutMsg: `The movies list was not displayed`
         })
 
