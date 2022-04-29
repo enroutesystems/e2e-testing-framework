@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651252897153' stop='1651252908642'>
-    <name>Movie Details Page: In Batman details I should verify that the Validate the IMDB Ranking of Batman is 8.1 Stars</name>
-    <title>Movie Details Page: In Batman details I should verify that the Validate the IMDB Ranking of Batman is 8.1 Stars</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651257017844' stop='1651257028591'>
+    <name>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</name>
+    <title>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</title>
     <test-cases>
-        <test-case start='1651252897154' status='passed' stop='1651252897154'>
+        <test-case start='1651257017844' status='passed' stop='1651257017845'>
             <name></name>
             <title></title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651252897155' status='passed' stop='1651252900829'>
+        <test-case start='1651257017845' status='passed' stop='1651257019564'>
             <name>Given I am on the home page</name>
             <title>Given I am on the home page</title>
             <labels>
@@ -31,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651252900829' status='passed' stop='1651252903508'>
+        <test-case start='1651257019564' status='passed' stop='1651257022843'>
             <name>When on the navbar I search "The Batman"</name>
             <title>When on the navbar I search "The Batman"</title>
             <labels>
@@ -45,7 +45,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651252903508' status='passed' stop='1651252908608'>
+        <test-case start='1651257022843' status='passed' stop='1651257028491'>
             <name>And In the search page I click on "The Batman" Title</name>
             <title>And In the search page I click on "The Batman" Title</title>
             <labels>
@@ -59,9 +59,9 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651252908608' status='passed' stop='1651252908641'>
-            <name>Then I should verify that the Validate the IMDB Ranking of Batman is "8.1"</name>
-            <title>Then I should verify that the Validate the IMDB Ranking of Batman is "8.1"</title>
+        <test-case start='1651257028491' status='passed' stop='1651257028590'>
+            <name>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert Pattinson" is 1 of the actors</name>
+            <title>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert Pattinson" is 1 of the actors</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
@@ -73,7 +73,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1651252908641' status='passed' stop='1651252908641'>
+        <test-case start='1651257028590' status='passed' stop='1651257028591'>
             <name></name>
             <title></title>
             <labels>

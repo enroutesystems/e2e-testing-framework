@@ -12,6 +12,8 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js --spec movies-details.feature"
+        "wdio": "wdio run wdio.conf.js --spec movies-details.feature",
+        "chrome": "wdio run configs/chrome.js --spec movies-details.feature",
+        "firefox": "wdio run configs/firefox.js --spec movies-details.feature"
     }
 }
