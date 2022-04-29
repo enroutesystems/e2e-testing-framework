@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651253560002' stop='1651253564282'>
+    <name>Movie Details Page: Validate the IMDB Score</name>
+    <title>Movie Details Page: Validate the IMDB Score</title>
+    <test-cases>
+        <test-case start='1651253560002' status='passed' stop='1651253560002'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651253560002' status='passed' stop='1651253561394'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1651253560003' status='passed' stop='1651253561394'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fcd9f1f0-32f9-4c29-8e0c-15c006b49cd3-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651253561395' status='passed' stop='1651253562667'>
+            <name>And on the navbar I search "The Batman"</name>
+            <title>And on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1651253561395' status='passed' stop='1651253561401'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b97b58a2-c905-41e4-9beb-2b77da948d9e-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='39bf9f38-9803-4699-b021-a8f01535aba3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651253561402' status='passed' stop='1651253561731'>
+                    <name>POST /session/:sessionId/element/886c0bfc-fa35-4765-bbfc-00d2d5bd9c1f/value</name>
+                    <title>POST /session/:sessionId/element/886c0bfc-fa35-4765-bbfc-00d2d5bd9c1f/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c150c9bf-ffca-46f7-b01d-85b32fd464f2-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651253561732' status='passed' stop='1651253561761'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1ba3d1e9-35b5-4003-87f6-85b0b61329b5-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='292cf9b7-a16b-4186-b17a-3cbd0bd2ef25-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651253561762' status='passed' stop='1651253562667'>
+                    <name>POST /session/:sessionId/element/d4cbcdfa-524b-46be-bf87-eb803cb24b4a/click</name>
+                    <title>POST /session/:sessionId/element/d4cbcdfa-524b-46be-bf87-eb803cb24b4a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651253562667' status='passed' stop='1651253564281'>
+            <name>And on the results page select "The Batman"</name>
+            <title>And on the results page select "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1651253562667' status='passed' stop='1651253562674'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5b5c238e-83c5-4298-96f7-1d3fe1e625e0-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='baa5f392-b54e-47b4-838f-e82836d61bb9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651253562675' status='passed' stop='1651253562682'>
+                    <name>POST /session/:sessionId/element/796c091e-323e-4f87-9f87-8576b4be414d/element</name>
+                    <title>POST /session/:sessionId/element/796c091e-323e-4f87-9f87-8576b4be414d/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7e919f96-16b3-416c-bd6b-23321ccaf1c5-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='ec621106-8dd9-4bb8-b678-54808bd90a78-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651253562683' status='passed' stop='1651253564281'>
+                    <name>POST /session/:sessionId/element/e1445d45-a4aa-46d0-ae64-f6168a481b21/click</name>
+                    <title>POST /session/:sessionId/element/e1445d45-a4aa-46d0-ae64-f6168a481b21/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651253564281' status='broken' stop='1651253564282'>
+            <name>Then on details page verify IMBD Score as "8.2"</name>
+            <title>Then on details page verify IMBD Score as "8.2"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "on details page verify IMBD Score as "8.2"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "on details page verify IMBD Score as "8.2"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/zaragozabraham/development/cucumber/e2e-testing-framework/cucumber/features/movies-details.feature):1:1
+                	at Scenario(Validate the IMDB Score):13:5
+                	at Step(on details page verify IMBD Score as "8.2"):14:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651253564282' status='passed' stop='1651253564282'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
