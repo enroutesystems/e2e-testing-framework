@@ -18,17 +18,12 @@ class MovieList extends Page {
   //   return $('....')
   // }
 
-  // imdb-header-search__input
   rowHyperlink(text) {
     return $(this.parentLocator).$(`.result_text=${text}`)
   }
-  //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a
 
-  movieLink(name, year) {
-    // const movie = `#main > div > div:nth-child(3) > table > tbody > tr:nth-child(1) > td.result_text > a`
-    // const text = `${name} (${year})`
-    // return $(this.parentLocator).$(`a=${text}`)
-    return $(`//*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a`).$()
+  movieLink() {
+    return $(`//*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a`)
   }
 
   directorName(name) {

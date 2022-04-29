@@ -24,7 +24,7 @@ exports.config = {
     // './features/**/*.feature',
     //'./features/**/movies-details.feature'
     './features/**/movies-ranking.feature',
-    './features/**/movies-genre.feature',
+    // './features/**/movies-genre.feature',
   ],
   // Patterns to exclude.
   exclude: [
@@ -142,7 +142,17 @@ exports.config = {
   // Test reporter for stdout.
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
-  reporters: ['spec'],
+  reporters: [
+    'spec',
+    [
+      'allure',
+      {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+      },
+    ],
+  ],
 
   //
   // If you are using Cucumber you need to specify the location of your step definitions.
@@ -269,8 +279,11 @@ exports.config = {
    * @param {number}             result.duration  duration of scenario in milliseconds
    * @param {Object}             context          Cucumber World object
    */
-  // afterStep: function (step, scenario, result, context) {
-  // },
+  afterStep: async function (step, scenario, result, context) {
+    if (result.error) {
+      browser.takeScreenshot()
+    }
+  },
   /**
    *
    * Runs after a Cucumber Scenario.

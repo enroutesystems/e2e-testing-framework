@@ -55,8 +55,10 @@ When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
   await NavBar.searchBar.mag.click()
 })
 
-Then(/^on the list page click "(The Batman) (2022)"$/, async (movie, year) => {
-  await MovieList.movieLink(movie, year).click()
+Then(/^on the list page click "(The Batman)"$/, async (movie) => {
+  const element = await MovieList.movieLink()
+  await element.click()
+  expect(element).toHaveTextContaining(movie)
 })
 
 Then(/^verify if we are in (\w+) page$/, async (page) => {
@@ -78,12 +80,9 @@ Then(/^I return to the home page/, async () => {
 // SCENARIO 2
 
 Then(/^validate the ranking in the IMDB is "(8.1)"$/, async (name) => {
-  try {
-    await expect(MovieList.starRank()).toBeExisting()
-    await expect(MovieList.starRank()).toHaveTextContaining(name)
-  } catch (e) {
-    throw new assert.AssertionError(e)
-  }
+  const element = await MovieList.starRank()
+  expect(element).toBeExisting()
+  expect(element).toHaveTextContaining(name)
 })
 
 //SCENARIO 3
@@ -91,12 +90,8 @@ Then(/^validate the ranking in the IMDB is "(8.1)"$/, async (name) => {
 Then(
   /^validate if movie has genre (.*) and number (.*)$/,
   async (name, number) => {
-    try {
-      const element = await MovieList.nameGenre(number)
-      await expect(element).toBeExisting()
-      await expect(element).toHaveTextContaining(name)
-    } catch (e) {
-      throw new assert.AssertionError(e)
-    }
+    const element = await MovieList.nameGenre(number)
+    expect(element).toBeExisting()
+    expect(element).toHaveTextContaining(name)
   }
 )
