@@ -1,0 +1,134 @@
+{
+  "uid" : "b2f06fe78db0385e",
+  "name" : "",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\".",
+  "historyId" : "c059b25bb358af792bc75c52985fd9d3",
+  "time" : {
+    "start" : 1651260700611,
+    "stop" : 1651260700612,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f27b400f7063bcf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260685043,
+        "stop" : 1651260685045,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a482f29b9f12ddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260232972,
+        "stop" : 1651260232972,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f03601e8f57def39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260216511,
+        "stop" : 1651260216514,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "737cc32c2f3a57c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260078537,
+        "stop" : 1651260078538,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a94cd1b5602dd165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260062918,
+        "stop" : 1651260062920,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c86cd3714e78adc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651259955659,
+        "stop" : 1651259955661,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f0964d5c8f0981f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651259938043,
+        "stop" : 1651259938045,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1c08bd8b9eda82e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651258617414,
+        "stop" : 1651258617415,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d3a0e1d3c2fe8234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651258587796,
+        "stop" : 1651258587798,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2f06fe78db0385e.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}
