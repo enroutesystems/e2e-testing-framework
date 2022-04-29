@@ -1,3 +1,4 @@
+
 class SearchBar {
     constructor(parentLocator) {
         this.parentLocator = parentLocator;
