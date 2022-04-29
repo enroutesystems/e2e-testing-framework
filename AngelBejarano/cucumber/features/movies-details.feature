@@ -17,8 +17,4 @@ Feature: Movie Details Page
       | Genre  |
       | Action |
       | Crime  |
-<<<<<<< HEAD
       | Drama  |
-=======
-      | Drama  |
->>>>>>> 2e70f025ffa6958b62f7574afbc2844704f40263
