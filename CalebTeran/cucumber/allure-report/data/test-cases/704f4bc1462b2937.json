@@ -1,0 +1,60 @@
+{
+  "uid" : "704f4bc1462b2937",
+  "name" : "When on the result page I select \"The Batman\"",
+  "fullName" : "Movie Details Page: Test.When on the result page I select \"The Batman\"",
+  "historyId" : "ac6c65d89fad13eaed92fc2b96e40e8a",
+  "time" : {
+    "start" : 1651265664725,
+    "stop" : 1651265668212,
+    "duration" : 3487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "When on the result page I select \"The Batman\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "704f4bc1462b2937.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

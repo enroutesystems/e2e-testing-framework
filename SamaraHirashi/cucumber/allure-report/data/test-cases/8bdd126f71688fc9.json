@@ -1,0 +1,86 @@
+{
+  "uid" : "8bdd126f71688fc9",
+  "name" : "Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\"",
+  "fullName" : "Movie Details Page: Test.Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\"",
+  "historyId" : "7b69c8f103db3b34a557479c203ea0cf",
+  "time" : {
+    "start" : 1651266104004,
+    "stop" : 1651266104286,
+    "duration" : 282
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "80d80f54de21cd70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668212,
+        "stop" : 1651265668399,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "da5a93a7c9433603",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265440848,
+        "stop" : 1651265441065,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "adeb0efc00d1e8d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264913084,
+        "stop" : 1651264913258,
+        "duration" : 174
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bdd126f71688fc9.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

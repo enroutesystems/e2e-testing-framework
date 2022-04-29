@@ -1,0 +1,111 @@
+{
+  "uid" : "fcf4bd17154d9f3f",
+  "name" : "Then I should see that the IMDB Ranking is \"8.1\" Stars",
+  "fullName" : "Movie Details Page: Test2.Then I should see that the IMDB Ranking is \"8.1\" Stars",
+  "historyId" : "6f9e5f64f89c34fda8a2d3ff04a67094",
+  "time" : {
+    "start" : 1651266111959,
+    "stop" : 1651266112491,
+    "duration" : 532
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toMatch(expected)",
+  "statusTrace" : "Error: expect(received).toMatch(expected)\n                \n                Matcher error: expected value must be a string or regular expression\n                \n                Expected has type:  number\n                Expected has value: 5\n                    at World.<anonymous> (C:\\Users\\usuario\\Desktop\\TestNew\\e2e-testing-framework_room6\\cucumber\\features\\step-definitions\\steps.js:38:20)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toMatch(expected)",
+    "statusTrace" : "Error: expect(received).toMatch(expected)\n                \n                Matcher error: expected value must be a string or regular expression\n                \n                Expected has type:  number\n                Expected has value: 5\n                    at World.<anonymous> (C:\\Users\\usuario\\Desktop\\TestNew\\e2e-testing-framework_room6\\cucumber\\features\\step-definitions\\steps.js:38:20)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5854445efbb7be6a",
+      "name" : "Screenshot",
+      "source" : "5854445efbb7be6a.png",
+      "type" : "image/png",
+      "size" : 326725
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see that the IMDB Ranking is \"8.1\" Stars"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "45486bdb33d0d502",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should see that the IMDB Ranking is \"8.1\" Stars\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651265676182,
+        "stop" : 1651265676183,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1f0c2f072b1c356f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265449502,
+        "stop" : 1651265449698,
+        "duration" : 196
+      }
+    }, {
+      "uid" : "99cc7728534d2a4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264920993,
+        "stop" : 1651264921038,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fcf4bd17154d9f3f.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

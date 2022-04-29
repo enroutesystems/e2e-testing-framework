@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651266104296' stop='1651266112492'>
+    <name>Movie Details Page: Test2</name>
+    <title>Movie Details Page: Test2</title>
+    <test-cases>
+        <test-case start='1651266104296' status='passed' stop='1651266104296'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266104296' status='passed' stop='1651266106378'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266106378' status='passed' stop='1651266108492'>
+            <name>And on the navbar I search "The Batman"</name>
+            <title>And on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266108493' status='passed' stop='1651266111959'>
+            <name>When on the result page I select "The Batman"</name>
+            <title>When on the result page I select "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266111959' status='failed' stop='1651266112491'>
+            <name>Then I should see that the IMDB Ranking is "8.1" Stars</name>
+            <title>Then I should see that the IMDB Ranking is "8.1" Stars</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4046d93d-41d6-45b2-bb2e-03c45434465e-attachment.png' type='image/png' size='326725'/>
+            </attachments>
+            <failure>
+                <message>Error: expect(received).toMatch(expected)</message>
+                <stack-trace>Error: expect(received).toMatch(expected)
+                
+                Matcher error: expected value must be a string or regular expression
+                
+                Expected has type:  number
+                Expected has value: 5
+                    at World.&lt;anonymous> (C:\Users\usuario\Desktop\TestNew\e2e-testing-framework_room6\cucumber\features\step-definitions\steps.js:38:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651266112491' status='passed' stop='1651266112492'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
