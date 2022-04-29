@@ -15,7 +15,7 @@ For the next exercise, you need a to create a new Feature, step defs and Page ob
 
 // Mañana
 Implement Allure Reports: https://webdriver.io/docs/allure-reporter
-    Points to conciderate:
+    Points to considerate:
      1. Save the reports on a specific folder
      2. Install Allure CLI to run on local
      3. on `Allure Serve` the page should be hosted on localhost with the latest results

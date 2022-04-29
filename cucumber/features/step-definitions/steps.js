@@ -1,10 +1,11 @@
 const { Given, When, Then } = require('@wdio/cucumber-framework')
-
 const HomePage = require('../page-objects/home.page')
 const BatmanPage = require('../page-objects/batman.page')
 const NavBar = require('../page-objects/global/navbar')
 const MovieList = require('../page-objects/movie.list.page')
 const { toHome } = require('../page-objects/movie.list.page')
+const assert = require('assert')
+const AssertionError = require('assert').AssertionError
 
 // const pages = {
 //     home: HomePage
@@ -81,6 +82,20 @@ Then(/^validate the ranking in the IMDB is "(8.1)"$/, (name) => {
 })
 
 //SCENARIO 3
-Then(/^validate if movie has genre (.*) and number (.*)$/, (name, number) => {
-  MovieList.nameGenre(name, number)
-})
+Then(
+  /^validate if movie has genre (.*) and number (.*)$/,
+  async (name, number) => {
+    try {
+      const element = await MovieList.nameGenre(name, number)
+      console.log('text?', element)
+      // expect(text).toMatch(name)
+      await element.waitForDisplayed({
+        timeout: 1000,
+        timeoutMsg: 'was not displayed.',
+      })
+    } catch (e) {
+      // console.error(e)
+      throw new AssertionError(`${name} was not found.`)
+    }
+  }
+)

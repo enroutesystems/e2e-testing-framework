@@ -1,5 +1,8 @@
-class MovieList {
+const Page = require('./page')
+
+class MovieList extends Page {
   constructor(tableId = 1) {
+    super()
     this.parentLocator = `.find-section:nth-of-child(${tableId})`
   }
 
@@ -31,10 +34,6 @@ class MovieList {
 
   actorName(name) {
     return $(this.parentLocator).$(`a=${name}`)
-  }
-
-  toHome() {
-    return browser.url(`https://www.imdb.com`)
   }
 }
 
