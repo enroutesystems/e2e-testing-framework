@@ -3,6 +3,7 @@ const MovieActor = require("../components/movieActor");
 const MovieGenre = require("../components/movieGenre");
 
 class MovieInfo {
+
   get movieDirector() {
     return MovieDirector;
   }
@@ -14,7 +15,6 @@ class MovieInfo {
   get MovieGenre() {
     return MovieGenre;
   }
-
 }
 
 module.exports = new MovieInfo();
