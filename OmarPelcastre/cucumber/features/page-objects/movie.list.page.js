@@ -8,8 +8,8 @@ class MovieList {
         return $('....')
     }
 
-    rowHyperlink(text) {
-        return $(this.parentLocator).$(`.result_text=${text}`);
+    rowHyperlink() {
+        return $(`.result_text`).$(`a`);
     }
 
     getFirstRow(){

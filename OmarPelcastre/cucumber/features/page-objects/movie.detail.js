@@ -1,4 +1,4 @@
-class MovieDetail { 
+class MovieDetail {
     constructor() {
         this.parentLocator = `.sc-10602b09-4 .sc-fa02f843-0`;
         this.genreParentLocator = `.sc-16ede01-4.bMBIRz`;
@@ -13,9 +13,8 @@ class MovieDetail {
     }
 
     get score() {
-        const parentLocator = '.sc-f6306ea-2'
-        // return $(parentLocator).$(`.sc-7ab21ed2-1.jGRxWM`);
-        return $(`.sc-7ab21ed2-1.jGRxWM`);
+        const parentLocator = '.sc-f6306ea-2';
+        return $(parentLocator).$(`.sc-7ab21ed2-1.jGRxWM`);
     }
 
     genres(genre) {
