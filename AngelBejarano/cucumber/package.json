@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "devDependencies": {
+        "@wdio/allure-reporter": "^7.19.5",
         "@wdio/cli": "^7.19.5",
         "@wdio/cucumber-framework": "^7.19.5",
         "@wdio/local-runner": "^7.19.5",
@@ -11,6 +12,8 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js --spec movies-details.feature"
+        "wdio": "wdio run wdio.conf.js --spec movies-details.feature",
+        "chrome": "wdio run configs/chrome.js --spec movies-details.feature",
+        "firefox": "wdio run configs/firefox.js --spec movies-details.feature"
     }
 }
