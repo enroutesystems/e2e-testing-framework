@@ -10,7 +10,7 @@ Feature: Movie Details Page
         Then I should see that the Director is "Matt Reeves" & the actor is "Robert Pattinson"
 
     Scenario: Test2
-        Then I should see that the IMDB Ranking is "8,1" Stars
+        Then I should see that the IMDB Ranking is "8.1" Stars
 
     Scenario: Test3
         Then I should see that the movie genres are "Action" "Crime" & "Drama"

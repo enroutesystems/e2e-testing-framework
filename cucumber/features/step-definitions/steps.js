@@ -33,10 +33,21 @@ Then(/^I should see that the Director is "(Matt Reeves)" & the actor is "(Robert
     expect(actor).toMatch(actorName);
 });
 
-Then (/^I should see that the IMDB Ranking is "(8,1)" Stars$/, async (imbdRating)=>{
+Then (/^I should see that the IMDB Ranking is "(8.1)" Stars$/, async (imbdRating)=>{
     const rating = await movieDetails.imbdRating.getText();
     expect(rating).toMatch(imbdRating)
 });
+
+Then(/^I should see that the movie genres are "(Action)" "(Crime)" & "(Drama)"$/,async (genre1, genre2, genre3)=>{
+    const firstGenre = await movieDetails.genres.$('a:first-child').getText();
+    const secondGenre = await movieDetails.genres.$('a:nth-child(2)').getText();
+    const thirthGenre = await movieDetails.genres.$('a:last-child').getText();
+
+    expect(firstGenre).toMatch(genre1);
+    expect(secondGenre).toMatch(genre2);
+    expect(thirthGenre).toMatch(genre3);
+});
+
 
 // Then(/^I should see the category dropdown now matches "(All|Titles|TV Episodes)"$/, 
 //     async (category) => {

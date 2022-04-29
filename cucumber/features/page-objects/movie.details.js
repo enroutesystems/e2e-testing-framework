@@ -9,8 +9,12 @@ class MovieDetails {
         return $('[data-testid="title-cast-item__actor"]');
     }
 
-  get imbdRating(){
+    get imbdRating(){
         return $('.jGRxWM');
+    }
+
+    get genres(){
+        return $('[data-testid="genres"]')
     }
 }
 
