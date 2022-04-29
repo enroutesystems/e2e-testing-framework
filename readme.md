@@ -1,1 +1,1 @@
-# This is the Rockstars Automation Repo
+# e2e-testing-framework
