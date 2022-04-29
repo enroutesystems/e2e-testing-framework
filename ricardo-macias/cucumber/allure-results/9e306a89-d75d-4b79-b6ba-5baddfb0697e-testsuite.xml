@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651269543813' stop='1651269551758'>
+    <name>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</name>
+    <title>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</title>
+    <test-cases>
+        <test-case start='1651269543814' status='passed' stop='1651269543814'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269543815' status='broken' stop='1651269551745'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Navigation failed because browser has disconnected!</message>
+                <stack-trace>Navigation failed because browser has disconnected!
+                Error: Navigation failed because browser has disconnected!
+                    at C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+                    at C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:62
+                    at Array.map (&lt;anonymous>)
+                    at Object.emit (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:43)
+                    at CDPSession.emit (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+                    at CDPSession._onClosed (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:271:14)
+                    at Connection._onMessage (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:105:25)
+                    at WebSocket.&lt;anonymous> (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+                    at WebSocket.onMessage (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\ws\lib\event-target.js:199:18)
+                    at WebSocket.emit (node:events:390:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651269551745' status='undefined'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269551748' status='undefined'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269551752' status='undefined'>
+            <name>Then I should Validate that the movie genres is "Crime"</name>
+            <title>Then I should Validate that the movie genres is "Crime"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269551754' status='passed' stop='1651269551757'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

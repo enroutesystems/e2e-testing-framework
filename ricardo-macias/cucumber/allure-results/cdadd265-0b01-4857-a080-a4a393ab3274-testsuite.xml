@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651269459701' stop='1651269497259'>
+    <name>Movie Details Page: In Batman details I should verify that the Validate the IMDB Ranking of Batman is 8.1 Stars</name>
+    <title>Movie Details Page: In Batman details I should verify that the Validate the IMDB Ranking of Batman is 8.1 Stars</title>
+    <test-cases>
+        <test-case start='1651269459702' status='passed' stop='1651269459703'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269459703' status='passed' stop='1651269467120'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269467120' status='passed' stop='1651269477289'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269477290' status='passed' stop='1651269485134'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269485134' status='failed' stop='1651269497255'>
+            <name>Then I should verify that the Validate the IMDB Ranking of Batman is "8.1"</name>
+            <title>Then I should verify that the Validate the IMDB Ranking of Batman is "8.1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3888fc8e-81d6-4dd2-927e-982a88c25d31-attachment.png' type='image/png' size='2450554'/>
+            </attachments>
+            <failure>
+                <message>Error: expect(received).toMatch(expected)</message>
+                <stack-trace>Error: expect(received).toMatch(expected)
+                
+                Expected substring: "8.1"
+                Received string:    "8,1"
+                    at World.&lt;anonymous> (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\features\step-definitions\steps.js:77:18)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651269497256' status='passed' stop='1651269497258'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
