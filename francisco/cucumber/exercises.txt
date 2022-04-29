@@ -5,11 +5,9 @@ For the next exercise, you need a to create a new Feature, step defs and Page ob
             2. Validate the IMDB Ranking is 8.1 Stars
             3. Validate that the movie genres are "Action", "Crime" & "Drama"
         Extra Points Scenario: (You might want to read jw player docs)[https://developer.jwplayer.com/jwplayer/docs/jw8-javascript-api-reference]
-            - Click on play trailer and then a new page should be open
-            - Start the player reproduction
-            - Validate an AD is running
-            - WaitUntil the ad end
-            - check that the player "Status" is "playing"
+            #- Click on play trailer and then a new page should be open
+            #- Start the player reproduction
+            #- check that the player "Status" is "playing"
 
 Implement Allure Reports: https://webdriver.io/docs/allure-reporter
     Points to conciderate:
