@@ -46,26 +46,29 @@ const pages = {
   thebatman: BatmanPage,
 }
 
-Given(/^I am on the (\w+) page$/, async (page) => await pages[page].open())
-
-When(/^on the navbar I search "(The Batman)"$/, (movie) => {
-  MovieList.rowHyperlink(movie)
+Given(/^I am on the (\w+) page$/, async (page) => {
+  await pages[page].open()
 })
 
-When(/^on the list page click "(The Batman) (2022)"$/, (movie, year) => {
-  MovieList.movieLink(movie, year).click()
+When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
+  await NavBar.searchBar.input.setValue(movie)
+  await NavBar.searchBar.mag.click()
+})
+
+Then(/^on the list page click "(The Batman) (2022)"$/, async (movie, year) => {
+  await MovieList.movieLink(movie, year).click()
 })
 
 Then(/^verify if we are in (\w+) page$/, async (page) => {
   await pages[page].open()
 })
 
-Then(/^verify if the director is "(Matt Reeves)"$/, (name) => {
-  MovieList.directorName(name)
+Then(/^verify if the director is "(Matt Reeves)"$/, async (name) => {
+  await MovieList.directorName(name)
 })
 
-Then(/^verify if the actor "(Robert Pattinson)"$/, (name) => {
-  MovieList.actorName(name)
+Then(/^verify if the actor "(Robert Pattinson)"$/, async (name) => {
+  await MovieList.actorName(name)
 })
 
 Then(/^I return to the home page/, async () => {
@@ -84,6 +87,7 @@ Then(/^validate the ranking in the IMDB is "(8.1)"$/, async (name) => {
 })
 
 //SCENARIO 3
+
 Then(
   /^validate if movie has genre (.*) and number (.*)$/,
   async (name, number) => {

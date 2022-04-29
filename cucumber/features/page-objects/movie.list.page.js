@@ -14,24 +14,31 @@ class MovieList extends Page {
     return $(`.sc-16ede01-3:nth-child(${number})`)
   }
 
-  get bottomLink() {
-    return $('....')
-  }
+  // get bottomLink() {
+  //   return $('....')
+  // }
 
+  // imdb-header-search__input
   rowHyperlink(text) {
     return $(this.parentLocator).$(`.result_text=${text}`)
   }
+  //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a
 
   movieLink(name, year) {
-    return $(this.parentLocator).$(`a=${name} (${year})`)
+    // const movie = `#main > div > div:nth-child(3) > table > tbody > tr:nth-child(1) > td.result_text > a`
+    // const text = `${name} (${year})`
+    // return $(this.parentLocator).$(`a=${text}`)
+    return $(`//*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a`).$()
   }
 
   directorName(name) {
-    return $(this.parentLocator).$(`a=${name}`)
+    return $(
+      `#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-c7f03a63-0.kUbSjY > section > div:nth-child(4) > section > section > div.sc-10602b09-2.jzJCdt > div.sc-10602b09-10.TKmtG > div.sc-10602b09-4.UqIkb > div.sc-fa02f843-0.fjLeDR > ul > li:nth-child(1) > div > ul > li > a`
+    )
   }
 
   actorName(name) {
-    return $(this.parentLocator).$(`a=${name}`)
+    return $(`a=${name}`)
   }
 }
 
