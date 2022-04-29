@@ -7,8 +7,8 @@ Feature: Movie Details Page
         And on the movie details page the director should be Matt Reeves and the actor should be Robert Pattison
         
     Scenario: Validate Ranking
-        Then on the datails page the ranking should be "8.1"
-        
+        Then on details page verify IMBD Score as "8.1"
+
     Scenario: Validate the genres
         Then verify genres matches "<Genre>"
         Examples:

@@ -16,16 +16,10 @@ When(/^on the navbar I select category "(Todo|Títulos|Episodios de TV)"$/,
     async (category) => await NavBar.searchBar.selectCategory(category));
 
 When(/^on the navbar I search "(The Batman)" and click in the first result$/, async (movie) => {
-    // MovieList.rowHyperlink(movie);
-    // await MovieList.clickFirstResult()
     const searchInput = NavBar.searchBar.input;
     await searchInput.addValue(movie);
     const searchSubmit = NavBar.searchBar.mag;
     await searchSubmit.click();
-    // browser.pause(1500)
-
-    // setTimeout(() => {}, 1000)
-
 });
 
 When(/^on the results page select "(The Batman)"$/, async (movie) => {
@@ -37,7 +31,6 @@ Then(/^on the movie details page the director should be Matt Reeves and the acto
     try {
         await expect(MovieDetail.director).toBeDisplayed()
         const director = MovieDetail.director.getText()
-        console.log(director)
         expect(director).toMatch("Matt Reeves")
         elementactor = await MovieDetail.actor("Robert Pattinson")
         actor = elementactor.getText()
@@ -48,12 +41,11 @@ Then(/^on the movie details page the director should be Matt Reeves and the acto
 
 })
 
-Then(/^on the datails page the ranking should be "(8.1)"$/, async(score) => {
+Then(/^on details page verify IMBD Score as "(8.1)"$/, async (score) => {
     const scoreElem = MovieDetail.score;
     const text = await scoreElem.getText();
-    expect(text).toMatch(score);
-})
-
+    expect(text).toMatch("8.1");
+});
 Then(
     /^verify genres matches "(Acción|Crimen|Drama)"$/,
     async (genre) => {
