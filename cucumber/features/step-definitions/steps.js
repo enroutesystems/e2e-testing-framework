@@ -4,6 +4,7 @@ const HomePage = require('../page-objects/home.page')
 const BatmanPage = require('../page-objects/batman.page')
 const NavBar = require('../page-objects/global/navbar')
 const MovieList = require('../page-objects/movie.list.page')
+const { toHome } = require('../page-objects/movie.list.page')
 
 // const pages = {
 //     home: HomePage
@@ -38,6 +39,8 @@ const MovieList = require('../page-objects/movie.list.page')
 //         expect(text).toMatch(category);
 //     });
 
+
+// SCENARIO 1
 const pages = {
   home: HomePage,
 }
@@ -56,15 +59,21 @@ When(/^on the list page click "(The Batman) (2022)"$/, (movie, year) => {
    MovieList.movieLink(movie, year).click()
  });
 
-/**
- * Scenario: Validate the Director is Matt Reeves & and than Robert Pattison is the actor
-        Given I am on the home page
-        And on the navbar I search "The Batman"
-        Then I click the option "The Batman 2022"
-        And verify if we are in "The Batman 2022" the page
-        And verify if the Dirección is "Matt Reeves"
-        And verify if "Rober Pattinson" is the Actor
- */
-
 Then(  /^verify if we are in (\w+) page$/, async (pages) => {await batmanPages[pages].open()})
-//Then (/^verify if the "(Dirección)" is is "(Matt Reeves)"$/,)
+
+Then (/^verify if the director is "(Matt Reeves)"$/, (name) => {
+  MovieList.directorName(name)
+});
+
+Then (/^verify if the actor "(Robert Pattinson)"$/, (name) => {
+  MovieList.actorName(name)
+});
+
+Then (/^I return to the home page/, async () => {await MovieList.toHome()})
+
+
+// SCENARIO 2
+
+Then (/^validate the ranking in the IMDB is "(8.1)"$/, (name)=>{
+ MovieList.starRank(name)
+})
