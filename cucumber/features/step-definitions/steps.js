@@ -77,3 +77,9 @@ Then (/^I return to the home page/, async () => {await MovieList.toHome()})
 Then (/^validate the ranking in the IMDB is "(8.1)"$/, (name)=>{
  MovieList.starRank(name)
 })
+
+//SCENARIO 3
+Then (/^validate if movie has genre {string} {string}$/, (name, number) => {
+  MovieList.nameGenre(name, number)
+});
+

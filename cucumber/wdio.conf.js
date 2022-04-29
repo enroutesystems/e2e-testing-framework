@@ -22,7 +22,9 @@ exports.config = {
     //
     specs: [
         //'./features/**/*.feature'
-        './features/**/movies-details.feature'
+        //'./features/**/movies-details.feature'
+        //'./features/**/movies-ranking.feature'
+        './features/**/movies-genre.feature'
     ],
     // Patterns to exclude.
     exclude: [

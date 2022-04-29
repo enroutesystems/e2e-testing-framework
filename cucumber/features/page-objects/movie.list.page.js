@@ -8,6 +8,10 @@ class MovieList {
         return $(this.parentLocator).$(`.sc-7ab21ed2-1=${name}`);
     }
 
+    nameGenre(name, number){
+        return $(this.parentLocator).$(`.a.sc-16ede01-3:nth-child(${number})=${name}`);
+    }
+
     get bottomLink() {
         return $('....')
     }
