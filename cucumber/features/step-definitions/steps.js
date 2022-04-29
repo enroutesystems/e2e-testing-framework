@@ -22,6 +22,10 @@ When(/^on the result page I select "(The Batman)"$/, (movie)=> {
     NavBar.searchBar.selectMovie(movie);
 });
 
+When("On the movie details page I should see the director's name is Matt Reeves",()=>{
+    const text = movieDetails.director.getText();
+    expect(text).toMatch("Matt Reeves");
+});
 
 Then(/^I should see the category dropdown now matches "(All|Titles|TV Episodes)"$/, 
     async (category) => {
