@@ -18,5 +18,5 @@ const config = require('../wdio.conf');
     // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
     // excludeDriverLogs: ['bugreport', 'server'],
 }]
-
+config.services=['chromedriver']
 exports.config = config;
