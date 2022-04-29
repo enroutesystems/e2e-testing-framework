@@ -10,7 +10,10 @@ const pages = {
 }
 
 Given(/^I am on the (\w+) page$/, 
-    async (page) => await pages[page].open());
+    async (page) =>{
+        await pages[page].open();
+        await browser.setWindowSize(1000, 700)
+    });
 
 // When(/^on the navbar I select category "(All|Titles|TV Episodes)"$/, 
 //     async (category) => await NavBar.searchBar.selectCategory(category));
@@ -23,9 +26,11 @@ When(/^on the result page I select "(The Batman)"$/, async (movie)=> {
     await NavBar.searchBar.selectMovie(movie);
 });
 
-When("On the movie details page I should see the director's name is Matt Reeves",()=>{
-    const text = movieDetails.director.getText();
-    expect(text).toMatch("Matt Reeves");
+Then(/^I should see that the Director is "(Matt Reeves)" & the actor is "(Robert Pattinson)"$/,async (directorName,actorName)=>{
+    const director = await movieDetails.director.getText();
+    const actor = await movieDetails.actor.getText();
+    expect(director).toMatch(directorName);
+    expect(actor).toMatch(actorName);
 });
 
 // Then(/^I should see the category dropdown now matches "(All|Titles|TV Episodes)"$/, 
