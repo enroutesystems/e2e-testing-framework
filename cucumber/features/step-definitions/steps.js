@@ -79,8 +79,6 @@ Then(
 );
 
 
-
-//ELIMINAR
 Then(/^I should read that the Director is "(Matt Reeves)" & and than "(Robert Pattinson)" is 1 of the actors$/,
 async (director, actor) => {
   //validar director
@@ -106,8 +104,10 @@ async (director, actor) => {
 Then(
     /^I should Validate that the movie genres is "(Action|Crime|Drama)"$/,
     async (genre) => {
-      const batmanLink = MovieList.rateValue();
-      const text = await batmanLink.getText();
-      expect(text).toMatch(rank);
+      const MovieGenre = MovieInfoPage.MovieGenre;
+      const genreObject = MovieGenre.findGenre(genre);
+
+      const genreName = await genreObject.getText();
+      expect(genreName).toMatch(genre);
     }
-  );
+);
