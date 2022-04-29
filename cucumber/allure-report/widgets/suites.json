@@ -4,8 +4,8 @@
     "uid" : "01d10ba4b6a89057bac661f2a4ed0d87",
     "name" : "Movie Details Page: Test2",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,

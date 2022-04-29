@@ -2,29 +2,29 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Step \"I should see that the IMDB Ranking is \"8.1\" Stars\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "name" : "Error: expect(received).toMatch(expected)",
       "children" : [ {
         "name" : "Then I should see that the IMDB Ranking is \"8.1\" Stars",
-        "uid" : "e59c0497b32f2c6e",
-        "parentUid" : "1e1ac9a33c1d88790093d4a41aee9a3c",
-        "status" : "broken",
+        "uid" : "fcf4bd17154d9f3f",
+        "parentUid" : "5d379c89bc58eb713d2488ec07399b25",
+        "status" : "failed",
         "time" : {
-          "start" : 1651265676182,
-          "stop" : 1651265676183,
-          "duration" : 1
+          "start" : 1651266111959,
+          "stop" : 1651266112491,
+          "duration" : 532
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 2,
+        "retriesCount" : 3,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-100.0.4896.127" ]
       } ],
-      "uid" : "1e1ac9a33c1d88790093d4a41aee9a3c"
+      "uid" : "5d379c89bc58eb713d2488ec07399b25"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

@@ -1,0 +1,60 @@
+{
+  "uid" : "da59e023c07897c0",
+  "name" : "",
+  "fullName" : "Movie Details Page: Test3.",
+  "historyId" : "d8a6654bd92a8ffd151c4ee6b704aae8",
+  "time" : {
+    "start" : 1651265449705,
+    "stop" : 1651265449705,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test3"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test3"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da59e023c07897c0.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
