@@ -33,6 +33,11 @@ Then(/^I should see that the Director is "(Matt Reeves)" & the actor is "(Robert
     expect(actor).toMatch(actorName);
 });
 
+Then (/^I should see that the IMDB Ranking is "(8,1)" Stars$/, async (imbdRating)=>{
+    const rating = await movieDetails.imbdRating.getText();
+    expect(rating).toMatch(imbdRating)
+});
+
 // Then(/^I should see the category dropdown now matches "(All|Titles|TV Episodes)"$/, 
 //     async (category) => {
 //         // This is a destructuring asignment

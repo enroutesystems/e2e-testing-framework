@@ -10,7 +10,7 @@ class MovieDetails {
     }
 
   get imbdRating(){
-        return $();
+        return $('.jGRxWM');
     }
 }
 
