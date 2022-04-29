@@ -1,7 +1,7 @@
 const { Given, When, Then } = require("@wdio/cucumber-framework");
 
 const HomePage = require("../page-objects/home.page");
-const MovieInfoPage = require("../page-objects/movie.info.page");
+const MovieInfo = require("../page-objects/movie.info.page");
 const NavBar = require("../page-objects/global/navbar");
 const MovieList = require("../page-objects/movie.list.page");
 
@@ -53,8 +53,8 @@ When(/^In the search page I click on "(\w[\w ]*\w)" Title$/, async (movie) => {
 Then(
   /^I should verify that the Validate the IMDB Ranking of Batman is "(8.1)"$/,
   async (rank) => {
-    const batmanLink = MovieList.rateValue();
-    const text = await batmanLink.getText();
+    const { rateValue } = MovieInfo;
+    const text = await rateValue.getText();
     expect(text).toMatch(rank);
   }
 );
@@ -63,7 +63,7 @@ Then(
 Then(/^I should read that the Director is "(Matt Reeves)" & and than "(Robert Pattinson)" is 1 of the actors$/,
 async (director, actor) => {
   //validar director
-  const movieDirectors = MovieInfoPage.movieDirector;
+  const movieDirectors = MovieInfo.movieDirector;
   const directorObject = movieDirectors.findDirectorName(director);
   const directorName = await directorObject.getText();
   // console.log("------------------------------------------------------")
@@ -72,7 +72,7 @@ async (director, actor) => {
   expect(directorName).toMatch(director);
 
   //validar actor
-  const MovieActor = MovieInfoPage.MovieActor;
+  const MovieActor = MovieInfo.MovieActor;
   const ActorObject = MovieActor.findActor(actor);
 
   const ActorName = await ActorObject.getText();
@@ -85,7 +85,7 @@ async (director, actor) => {
 Then(
     /^I should Validate that the movie genres is "(Action|Crime|Drama)"$/,
     async (genre) => {
-      const MovieGenre = MovieInfoPage.MovieGenre;
+      const MovieGenre = MovieInfo.MovieGenre;
       const genreObject = MovieGenre.findGenre(genre);
 
       const genreName = await genreObject.getText();

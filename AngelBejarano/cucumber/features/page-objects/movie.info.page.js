@@ -14,6 +14,10 @@ class MovieInfo {
   get MovieGenre() {
     return MovieGenre;
   }
+
+  get rateValue() {
+    return $(`.sc-7ab21ed2-1.jGRxWM`);
+  }
 }
 
 module.exports = new MovieInfo();
