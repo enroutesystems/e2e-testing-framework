@@ -1,12 +1,16 @@
 const config = require("../wdio.conf");
-
 config.capabilities = [
   {
+    maxInstances: 5,
+    //
     browserName: "firefox",
+    acceptInsecureCerts: true,
     "moz:firefoxOptions": {
-      args: ["-headless"]
+      prefs: {
+        "intl.accept_languages": "en,en-US"
+      }
     }
   }
 ];
-config.services = ["selenium-standalone"];
+
 exports.config = config;
