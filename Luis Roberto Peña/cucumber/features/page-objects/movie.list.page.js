@@ -9,7 +9,6 @@ class MovieList {
 
   rowHyperlink(text) {
     return $(`.result_text`).$(`a`);
-    //return $(this.parentLocator).$(`.result_text=${text}`);
   }
 }
 

@@ -48,7 +48,6 @@ Then(
 
 When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
   //buscar batman y dar click en buscar
-
   const searchInput = NavBar.searchBar.input;
   const searchBtn = NavBar.searchBar.mag;
 
@@ -82,19 +81,19 @@ Then(
     expect(directorName).toMatch(director);
 
     //validar actor
-    const MovieActor = MovieInfoPage.MovieActor;
-    const ActorObject = MovieActor.findActor(actor);
+    const movieActor = MovieInfoPage.MovieActor;
+    const actorObject = movieActor.findActor(actor);
 
-    const ActorName = await ActorObject.getText();
-    expect(ActorName).toMatch(actor);
+    const actorName = await actorObject.getText();
+    expect(actorName).toMatch(actor);
   }
 );
 
 Then(
   /^I should Validate that the movie genres is "(Action|Crime|Drama)"$/,
   async (genre) => {
-    const MovieGenre = MovieInfoPage.MovieGenre;
-    const genreObject = MovieGenre.findGenre(genre);
+    const movieGenre = MovieInfoPage.MovieGenre;
+    const genreObject = movieGenre.findGenre(genre);
 
     const genreName = await genreObject.getText();
     expect(genreName).toMatch(genre);

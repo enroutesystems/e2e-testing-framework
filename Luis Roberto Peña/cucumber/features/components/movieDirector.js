@@ -1,8 +1,4 @@
 class MovieDirector {
-  // constructor() {
-  // this.parentLocator = parentLocator;
-  // }
-
   get repart() {
     return $(".ipc-metadata-list__item.ipc-metadata-list-item--link");
   }
@@ -12,7 +8,4 @@ class MovieDirector {
   }
 }
 
-/**
- * Constructor requires parent locator
- */
 module.exports = new MovieDirector();

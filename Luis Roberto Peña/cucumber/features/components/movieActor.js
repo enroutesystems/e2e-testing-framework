@@ -1,8 +1,4 @@
 class MovieActor {
-  // constructor() {
-  // this.parentLocator = parentLocator;
-  // }
-
   get actors() {
     return $(
       ".ipc-sub-grid.ipc-sub-grid--page-span-2.ipc-sub-grid--wraps-at-above-l.ipc-shoveler__grid"
@@ -14,7 +10,4 @@ class MovieActor {
   }
 }
 
-/**
- * Constructor requires parent locator
- */
 module.exports = new MovieActor();
