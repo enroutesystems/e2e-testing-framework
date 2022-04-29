@@ -61,18 +61,16 @@ Then(
 
 Then(/^I should read that the Director is "(\w[\w ]*\w)"$/,
   async (director) => {
-    const { movieDirector } = MovieInfo;
-    const directorName = await movieDirector.findDirectorName(director);
+    const { MovieDirector } = MovieInfo;
+    const directorName = await MovieDirector.findDirectorName(director);
     expect(directorName).toMatch(director);
   }
 );
 
 Then(/^I should read that "(\w[\w ]*\w)" is 1 of the actors$/,
   async (actor) => {
-    //validar actor
-    const MovieActor = MovieInfo.MovieActor;
-    const ActorObject = MovieActor.findActor(actor);
-    const ActorName = await ActorObject.getText();
+    const { MovieActor } = MovieInfo;
+    const ActorName = await MovieActor.findActor(actor);
     expect(ActorName).toMatch(actor);
   }
 );
@@ -80,9 +78,8 @@ Then(/^I should read that "(\w[\w ]*\w)" is 1 of the actors$/,
 Then(
   /^I should Validate that the movie genre is "(Action|Crime|Drama)"$/,
   async (genre) => {
-    const MovieGenre = MovieInfo.MovieGenre;
+    const { MovieGenre } = MovieInfo;
     const genreObject = MovieGenre.findGenre(genre);
-
     const genreName = await genreObject.getText();
     expect(genreName).toMatch(genre);
   }
