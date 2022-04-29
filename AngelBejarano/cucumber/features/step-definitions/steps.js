@@ -41,7 +41,6 @@ Then(
 //---------------BATMAN----------------
 
 When(/^on the navbar I search "(\w[\w ]*\w)"$/, async (movie) => {
-  //buscar batman y dar click en buscar
   await NavBar.searchBar.searchTitle(movie);
 });
 
@@ -60,35 +59,32 @@ Then(
 );
 
 
-Then(/^I should read that the Director is "(Matt Reeves)" & and than "(Robert Pattinson)" is 1 of the actors$/,
-async (director, actor) => {
-  //validar director
-  const movieDirectors = MovieInfo.movieDirector;
-  const directorObject = movieDirectors.findDirectorName(director);
-  const directorName = await directorObject.getText();
-  // console.log("------------------------------------------------------")
-  // console.log('DIRECTOR OBJECT: ', directorName, " - DIRECTOR PARAM: ", director);
-  // await browser.pause(3000);
-  expect(directorName).toMatch(director);
+Then(/^I should read that the Director is "(\w[\w ]*\w)"$/,
+  async (director) => {
+    const movieDirectors = MovieInfo.movieDirector;
+    const directorObject = movieDirectors.findDirectorName(director);
+    const directorName = await directorObject.getText();
+    expect(directorName).toMatch(director);
+  }
+);
 
-  //validar actor
-  const MovieActor = MovieInfo.MovieActor;
-  const ActorObject = MovieActor.findActor(actor);
-
-  const ActorName = await ActorObject.getText();
-  expect(ActorName).toMatch(actor);
-  // await browser.pause(3000);
-
-  //
-});
+Then(/^I should read that "(\w[\w ]*\w)" is 1 of the actors$/,
+  async (actor) => {
+    //validar actor
+    const MovieActor = MovieInfo.MovieActor;
+    const ActorObject = MovieActor.findActor(actor);
+    const ActorName = await ActorObject.getText();
+    expect(ActorName).toMatch(actor);
+  }
+);
 
 Then(
-    /^I should Validate that the movie genres is "(Action|Crime|Drama)"$/,
-    async (genre) => {
-      const MovieGenre = MovieInfo.MovieGenre;
-      const genreObject = MovieGenre.findGenre(genre);
+  /^I should Validate that the movie genre is "(Action|Crime|Drama)"$/,
+  async (genre) => {
+    const MovieGenre = MovieInfo.MovieGenre;
+    const genreObject = MovieGenre.findGenre(genre);
 
-      const genreName = await genreObject.getText();
-      expect(genreName).toMatch(genre);
-    }
+    const genreName = await genreObject.getText();
+    expect(genreName).toMatch(genre);
+  }
 );
