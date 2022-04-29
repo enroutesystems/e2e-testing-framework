@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "devDependencies": {
+        "@wdio/allure-reporter": "^7.19.5",
         "@wdio/cli": "^7.19.5",
         "@wdio/cucumber-framework": "^7.19.5",
         "@wdio/local-runner": "^7.19.5",
@@ -11,6 +12,10 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "wdio": "wdio run wdio.conf.js",
+        "report" : "allure serve ./reports/allure"
+    },
+    "dependencies": {
+        "wdio": "^6.0.1"
     }
 }
