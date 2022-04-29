@@ -42,12 +42,7 @@ Then(
 
 When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
   //buscar batman y dar click en buscar
-
-  const searchInput = NavBar.searchBar.input;
-  const searchBtn = NavBar.searchBar.mag;
-
-  await searchInput.setValue(movie);
-  await searchBtn.click();
+  await NavBar.searchBar.searchTitle(movie);
 });
 
 When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
