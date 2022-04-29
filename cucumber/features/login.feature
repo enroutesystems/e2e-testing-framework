@@ -7,6 +7,6 @@ Feature: Search Input
 
     Examples:
       | Category    |
-      | All         | 
+      | All         |
       | Titles      |
       | TV Episodes |
