@@ -1,3 +1,5 @@
+const allure = require('allure-commandline')
+
 exports.config = {
     //
     // ====================
@@ -132,8 +134,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
-
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+    }]],
 
     //
     // If you are using Cucumber you need to specify the location of your step definitions.
@@ -260,8 +265,13 @@ exports.config = {
      * @param {number}             result.duration  duration of scenario in milliseconds
      * @param {Object}             context          Cucumber World object
      */
-    // afterStep: function (step, scenario, result, context) {
-    // },
+    afterStep: async function (test, scenario, { error, duration, passed }) {
+        await browser.takeScreenshot().then(function (png) {
+            var fs = require('fs');
+            var decodedImage = new Buffer(png, 'base64').toString('binary');
+            scenario.attach(decodedImage, 'image/png');
+        });
+    }
     /**
      *
      * Runs after a Cucumber Scenario.
@@ -317,8 +327,40 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+
+    // onComplete: function() {
+    //     const reportError = new Error('Could not generate Allure report')
+    //     const reportError2 = new Error('ExitCode !== 0')
+    //     //allure generate allure-results --clean -o allure-report
+    //     const generation = allure(['generate', 'allure-results', '--clean', '-o', 'allure-report'])
+    //     const open = allure(['open'])
+    //     return new Promise((resolve, reject) => {
+    //         const generationTimeout = setTimeout(
+    //             () => reject(reportError),
+    //             5000)
+
+    //         const openTimeout = setTimeout(
+    //             () => reject(reportError),
+    //             6000)
+
+    //         generation.on('exit', async function(exitCode) {
+    //             clearTimeout(generationTimeout)
+
+    //             if (exitCode !== 0) {
+    //                 return reject(reportError2)
+    //             }
+
+    //             console.log('Allure report successfully generated')
+    //             await resolve()
+                
+    //             await open.on('exit', function() {
+    //                 resolve()
+    //             })
+    //         })
+
+    //     })
+    // }
+
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

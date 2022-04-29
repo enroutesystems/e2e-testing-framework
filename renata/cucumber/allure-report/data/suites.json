@@ -1,0 +1,323 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor.",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "dfe8d5c87ea2bdcf",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268897300,
+        "stop" : 1651268902651,
+        "duration" : 5351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "2281326009dcd40d",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268902651,
+        "stop" : 1651268906052,
+        "duration" : 3401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "8762544b60b4b1c4",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268906052,
+        "stop" : 1651268909584,
+        "duration" : 3532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "b853afb0ea97650d",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268909584,
+        "stop" : 1651268909865,
+        "duration" : 281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "4ebc6a5b345320da",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268909866,
+        "stop" : 1651268910118,
+        "duration" : 252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "db7449502b36683e",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268910118,
+        "stop" : 1651268910118,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "af0c15b8255e1a9c8ddff5cc6be34844"
+  }, {
+    "name" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "99a6b970d3de1b51",
+      "parentUid" : "abad21443ff97359b94ca55ab1e5e7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268910131,
+        "stop" : 1651268913249,
+        "duration" : 3118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "eaf131815d595288",
+      "parentUid" : "abad21443ff97359b94ca55ab1e5e7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268913249,
+        "stop" : 1651268917488,
+        "duration" : 4239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "f418f224e6229500",
+      "parentUid" : "abad21443ff97359b94ca55ab1e5e7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268917488,
+        "stop" : 1651268920896,
+        "duration" : 3408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has \"8.1\" stars",
+      "uid" : "6691626a88439f9c",
+      "parentUid" : "abad21443ff97359b94ca55ab1e5e7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268920896,
+        "stop" : 1651268921236,
+        "duration" : 340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "d1439e417a896663",
+      "parentUid" : "abad21443ff97359b94ca55ab1e5e7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268921236,
+        "stop" : 1651268921237,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "abad21443ff97359b94ca55ab1e5e7a2"
+  }, {
+    "name" : "Movie Details Page: Validate Genres",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "6315c7100b7e72c4",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268921245,
+        "stop" : 1651268923742,
+        "duration" : 2497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "5ddb1fd3be93022c",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268923742,
+        "stop" : 1651268928161,
+        "duration" : 4419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "47d82728a8b6b23c",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268928161,
+        "stop" : 1651268931905,
+        "duration" : 3744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "2fef8aaaa7462e1",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268931905,
+        "stop" : 1651268932410,
+        "duration" : 505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "155612c0e854834f",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268932411,
+        "stop" : 1651268932797,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Dorama\"",
+      "uid" : "881900e150ac034",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "broken",
+      "time" : {
+        "start" : 1651268932797,
+        "stop" : 1651268932799,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "e6f8a7b32509cd9",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268932800,
+        "stop" : 1651268932800,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "cb061c1a3df18e7b66c15d3b16f66197"
+  } ]
+}

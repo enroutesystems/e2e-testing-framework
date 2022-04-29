@@ -1,0 +1,60 @@
+{
+  "uid" : "3e327d729e09b0d4",
+  "name" : "When on the navbar I search movie \"The Batman\"",
+  "fullName" : "Movie Details Page: Validate Genres.When on the navbar I search movie \"The Batman\"",
+  "historyId" : "3159ced87712446c1103ff83410ce4dc",
+  "time" : {
+    "start" : 1651267973652,
+    "stop" : 1651267977229,
+    "duration" : 3577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : "When on the navbar I search movie \"The Batman\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e327d729e09b0d4.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

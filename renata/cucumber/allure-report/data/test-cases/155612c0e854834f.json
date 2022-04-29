@@ -1,0 +1,118 @@
+{
+  "uid" : "155612c0e854834f",
+  "name" : "Then check if the movie has the genre of \"Crimen\"",
+  "fullName" : "Movie Details Page: Validate Genres.Then check if the movie has the genre of \"Crimen\"",
+  "historyId" : "96208d9b1891b33272324508bc974ed6",
+  "time" : {
+    "start" : 1651268932411,
+    "stop" : 1651268932797,
+    "duration" : 386
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "708bf5222cac4870",
+      "name" : "Screenshot",
+      "source" : "708bf5222cac4870.png",
+      "type" : "image/png",
+      "size" : 728009
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has the genre of \"Crimen\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "831f64d6f071cb63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268827483,
+        "stop" : 1651268827509,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "4d97bf86e45a6be2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268763849,
+        "stop" : 1651268763881,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "77fce04546274b42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268568176,
+        "stop" : 1651268568606,
+        "duration" : 430
+      }
+    }, {
+      "uid" : "a177449baf412955",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268207706,
+        "stop" : 1651268208030,
+        "duration" : 324
+      }
+    }, {
+      "uid" : "89926ad439c21aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267979408,
+        "stop" : 1651267979443,
+        "duration" : 35
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "155612c0e854834f.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

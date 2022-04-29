@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651268921244' stop='1651268932801'>
+    <name>Movie Details Page: Validate Genres</name>
+    <title>Movie Details Page: Validate Genres</title>
+    <test-cases>
+        <test-case start='1651268921244' status='passed' stop='1651268921245'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651268921245' status='passed' stop='1651268923742'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bd620c7a-5bc7-40d2-89eb-70c487101bbd-attachment.png' type='image/png' size='758667'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651268923742' status='passed' stop='1651268928161'>
+            <name>When on the navbar I search movie "The Batman"</name>
+            <title>When on the navbar I search movie "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cc08e432-fa5e-4576-a7ba-f124f6284a06-attachment.png' type='image/png' size='819473'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651268928161' status='passed' stop='1651268931905'>
+            <name>Then I select the movie</name>
+            <title>Then I select the movie</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='654ddfb3-63ad-4d7b-ad9b-79495e3e2bf2-attachment.png' type='image/png' size='728009'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651268931905' status='passed' stop='1651268932410'>
+            <name>Then check if the movie has the genre of "Acción"</name>
+            <title>Then check if the movie has the genre of "Acción"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2232d0dc-efc1-4376-98f9-fe3bca8487ec-attachment.png' type='image/png' size='728009'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651268932411' status='passed' stop='1651268932797'>
+            <name>Then check if the movie has the genre of "Crimen"</name>
+            <title>Then check if the movie has the genre of "Crimen"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3544a23-2400-4f1c-8fe8-59769944660b-attachment.png' type='image/png' size='728009'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651268932797' status='broken' stop='1651268932799'>
+            <name>Then check if the movie has the genre of "Dorama"</name>
+            <title>Then check if the movie has the genre of "Dorama"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "check if the movie has the genre of "Dorama"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "check if the movie has the genre of "Dorama"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Renata\Desktop\rockstars-8g\e2e-testing-framework\renata\cucumber\features\movies-details.feature):1:1
+                	at Scenario(Validate Genres):14:5
+                	at Step(check if the movie has the genre of "Dorama"):17:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651268932800' status='passed' stop='1651268932800'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,113 @@
+{
+  "uid" : "881900e150ac034",
+  "name" : "Then check if the movie has the genre of \"Dorama\"",
+  "fullName" : "Movie Details Page: Validate Genres.Then check if the movie has the genre of \"Dorama\"",
+  "historyId" : "9ade1e4b6756f3a136abfdb8285a96e7",
+  "time" : {
+    "start" : 1651268932797,
+    "stop" : 1651268932799,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Renata\\Desktop\\rockstars-8g\\e2e-testing-framework\\renata\\cucumber\\features\\movies-details.feature):1:1\n                \tat Scenario(Validate Genres):14:5\n                \tat Step(check if the movie has the genre of \"Dorama\"):17:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has the genre of \"Dorama\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "193b9042667d7b0b",
+      "status" : "broken",
+      "statusDetails" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651268827509,
+        "stop" : 1651268827510,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8b18dae62bd9db3d",
+      "status" : "broken",
+      "statusDetails" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651268763881,
+        "stop" : 1651268763882,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "25fe3ea025738f30",
+      "status" : "broken",
+      "statusDetails" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651268568606,
+        "stop" : 1651268568608,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ab02bd0dbd7569fe",
+      "status" : "broken",
+      "statusDetails" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651268208030,
+        "stop" : 1651268208031,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "10dca77df377242b",
+      "status" : "broken",
+      "statusDetails" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651267979443,
+        "stop" : 1651267979445,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "881900e150ac034.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
