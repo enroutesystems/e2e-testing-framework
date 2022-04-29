@@ -31,12 +31,12 @@ Then(
 
 /*---------------BATMAN----------------*/
 
-When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
+When(/^on the navbar I search "(([\w ]+))"$/, async (movie) => {
   //buscar batman y dar click en buscar
   await NavBar.searchBar.searchTitle(movie);
 });
 
-When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
+When(/^In the search page I click on "(([\w ]+))" Title$/, async (movie) => {
   const batmanLink = MovieList.rowHyperlink(movie);
 
   await batmanLink.click();
@@ -45,7 +45,7 @@ When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
 });
 
 Then(
-  /^I should verify that the Validate the IMDB Ranking of Batman is "(8.1)"$/,
+  /^I should verify that the Validate the IMDB Ranking of Batman is "([+-]?([0-9]*[.])?[0-9]+)"$/,
   async (rank) => {
     const batmanLink = MovieList.rateValue();
     const text = await batmanLink.getText();
@@ -54,7 +54,7 @@ Then(
 );
 
 Then(
-  /^I should read that the Director is "(Matt Reeves)" & and than "(Robert Pattinson)" is 1 of the actors$/,
+  /^I should read that the Director is "(([\w ]+))" & and than "(([\w ]+))" is 1 of the actors$/,
   async (director, actor) => {
     //validar director
     const movieDirectors = MovieInfoPage.movieDirector;
