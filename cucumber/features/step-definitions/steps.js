@@ -8,6 +8,7 @@ const pages = {
   home: HomePage
 }
 
+
 Given(/^I am on the (\w+) page$/, 
 async (page) =>{ 
         await pages[page].open();        
@@ -44,4 +45,20 @@ Then(/^I should see the star "([^"]*)"$/,
       const text = await starName.getText();
       expect(text).toMatch(name);
     });
+
+
+
+let count = 0; 
+
+Then(/^I should see genre "([^"]*)"$/,   
+async (genre) => {
+        count ++;
+        const getGenre = MovieList.getGenre(count)
+        await getGenre.waitForDisplayed({
+            timeout: 2500,
+            timeoutMsg: 'The genre Action does not exist'
+        });
+    const text = await getGenre.getText()
+    expect(text).toMatch(genre)
+})
 

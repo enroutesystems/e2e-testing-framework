@@ -1,5 +1,8 @@
 class MovieList {
   
+  getGenre(count){ 
+    return $(`[data-testid='genres'] a:nth-child(${count}) span`)
+  }
 
   async selectMovie(name){
     const movieList = $(".findSection")
@@ -14,6 +17,10 @@ class MovieList {
     });
     link.click()
   }
+
+
 }
+
+
 
 module.exports = new MovieList();
