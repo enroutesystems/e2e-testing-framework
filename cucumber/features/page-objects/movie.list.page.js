@@ -6,14 +6,12 @@ class MovieList extends Page {
     this.parentLocator = `.find-section:nth-of-child(${tableId})`
   }
 
-  starRank(name) {
-    return $(this.parentLocator).$(`.sc-7ab21ed2-1=${name}`)
+  starRank() {
+    return $(`.sc-7ab21ed2-1.jGRxWM`)
   }
 
-  nameGenre(genre, number) {
-    return $(this.parentLocator).$(
-      `.a.sc-16ede01-3:nth-child(${number})=${genre}`
-    )
+  nameGenre(number) {
+    return $(`.sc-16ede01-3:nth-child(${number})`)
   }
 
   get bottomLink() {

@@ -43,9 +43,6 @@ const AssertionError = require('assert').AssertionError
 // SCENARIO 1
 const pages = {
   home: HomePage,
-}
-
-const batmanPages = {
   thebatman: BatmanPage,
 }
 
@@ -59,8 +56,8 @@ When(/^on the list page click "(The Batman) (2022)"$/, (movie, year) => {
   MovieList.movieLink(movie, year).click()
 })
 
-Then(/^verify if we are in (\w+) page$/, async (pages) => {
-  await batmanPages[pages].open()
+Then(/^verify if we are in (\w+) page$/, async (page) => {
+  await pages[page].open()
 })
 
 Then(/^verify if the director is "(Matt Reeves)"$/, (name) => {
@@ -77,8 +74,13 @@ Then(/^I return to the home page/, async () => {
 
 // SCENARIO 2
 
-Then(/^validate the ranking in the IMDB is "(8.1)"$/, (name) => {
-  MovieList.starRank(name)
+Then(/^validate the ranking in the IMDB is "(8.1)"$/, async (name) => {
+  try {
+    await expect(MovieList.starRank()).toBeExisting()
+    await expect(MovieList.starRank()).toHaveTextContaining(name)
+  } catch (e) {
+    throw new assert.AssertionError(e)
+  }
 })
 
 //SCENARIO 3
@@ -86,16 +88,11 @@ Then(
   /^validate if movie has genre (.*) and number (.*)$/,
   async (name, number) => {
     try {
-      const element = await MovieList.nameGenre(name, number)
-      console.log('text?', element)
-      // expect(text).toMatch(name)
-      await element.waitForDisplayed({
-        timeout: 1000,
-        timeoutMsg: 'was not displayed.',
-      })
+      const element = await MovieList.nameGenre(number)
+      await expect(element).toBeExisting()
+      await expect(element).toHaveTextContaining(name)
     } catch (e) {
-      // console.error(e)
-      throw new AssertionError(`${name} was not found.`)
+      throw new assert.AssertionError(e)
     }
   }
 )
