@@ -1,4 +1,4 @@
-Feature: Search Input
+# Feature: Search Input
 
   Scenario Outline: As a user, I should be able to search by Category
     Given I am on the home page
