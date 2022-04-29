@@ -15,6 +15,49 @@ class SearchBar {
         return $(`${this.parentLocator} .ipc-button`);
     }
 
+    get moviesListDropdown() {
+        return $(`${this.parentLocator} .react-autosuggest__suggestions-list`)
+    }
+
+    get movieLi(){
+        return $(`${this.parentLocator} #react-autowhatever-1--item-0`)
+    }
+
+    async searchMovie(movie){
+        const input = this.input;
+        // Waits for clickable and then clicks
+        await input.waitForClickable({ 
+            timeout: 2500, 
+            timeoutMsg: 'input is not able to be clickable' 
+        });
+        await input.click();
+
+        input.setvalue(movie)
+    }
+
+    async selectMovie(movie) {
+        const moviesList = await this.moviesListDropdown;
+        await moviesList.waitForDisplayed({
+            timeout: 20000,
+            timeoutMsg: `The movies list was not displayed`
+        })
+
+        const movieLi = await moviesList.$(`li:first-child`)
+        await movieLi.waitForDisplayed({
+            timeout: 2500,
+            timeoutMsg: `${movie} was not displayed`
+        })
+        
+        const item = await movieLi.$('a:first-child');
+        await item.waitForClickable({
+            timeout: 1000,
+            timeoutMsg: `${movie} was not clickable`
+        });
+        await item.click();
+    }
+
+
+
     /**
      * Method that opens the category menu and selects 1
      */

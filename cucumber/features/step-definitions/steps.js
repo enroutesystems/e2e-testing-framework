@@ -15,8 +15,13 @@ When(/^on the navbar I select category "(All|Titles|TV Episodes)"$/,
     async (category) => await NavBar.searchBar.selectCategory(category));
 
 When(/^on the navbar I search "(The Batman)"$/, (movie)=> {
-    MovieList.rowHyperlink(movie);
+    NavBar.searchBar.searchMovie(movie);
 });
+
+When(/^on the result page I select "(The Batman)"$/, (movie)=> {
+    NavBar.searchBar.selectMovie(movie);
+});
+
 
 Then(/^I should see the category dropdown now matches "(All|Titles|TV Episodes)"$/, 
     async (category) => {

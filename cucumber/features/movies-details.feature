@@ -13,5 +13,4 @@ Feature: Movie Details Page
         Then I should see that the IMDB Ranking is "8.1" Stars
 
     Scenario:
-        Then I should see that the movie genres are "Action", "Crime" & "Drama"
-        
+        Then I should see that the movie genres are "Action" "Crime" & "Drama"
