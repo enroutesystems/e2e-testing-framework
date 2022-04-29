@@ -82,4 +82,3 @@ Then (/^validate the ranking in the IMDB is "(8.1)"$/, (name)=>{
 Then (/^validate if movie has genre {string} {string}$/, (name, number) => {
   MovieList.nameGenre(name, number)
 });
-

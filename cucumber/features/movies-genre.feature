@@ -4,12 +4,11 @@ Feature: Movie Genre
         When on the navbar I search "The Batman"
         Then on the list page click "The Batman 2022"
         And verify if we are in thebatman page 
-        And validate if movie has genre "Action" "1"
+        And validate if movie has genre "Acción" "1"
         # And validate that the movie genres are "Crime"
         # And validate that the movie genres are "Drama"
-
 Examples:
 | name | number |
-| Action | 1 | 
-| Crime | 2 |
+| Acción | 1 | 
+| Crimen | 2 |
 | Drama | 3 |
