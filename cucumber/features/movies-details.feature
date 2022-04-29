@@ -11,7 +11,7 @@ Feature: "The Batman" Movie Details Page
     Given I am on the home page
     When on the navbar I search "The Batman"
     Then on the page I select "Batman" movie
-    Then I should see that the ranking is "8,1"
+    Then I should see that the ranking is "8.1"
         
   Scenario Outline: Validate that the movie genres are "Action", "Crime" & "Drama"
     Given I am on the home page
