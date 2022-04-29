@@ -1,18 +1,12 @@
 class MovieDirector {
-  // constructor() {
-  // this.parentLocator = parentLocator;
-  // }
-
-  get repart() {
-    return $(".ipc-metadata-list__item.ipc-metadata-list-item--link");
+  constructor() {
+    this.parentLocator = $(".ipc-metadata-list__item");
   }
 
-  findDirectorName(name) {
-    return this.repart.$(`//a[text()='${name}']`);
+  async findDirectorName(name) {
+    const objectDirector = this.parentLocator.$(`//a[text()='${name}']`);
+    return await objectDirector.getText();
   }
 }
 
-/**
- * Constructor requires parent locator
- */
 module.exports = new MovieDirector();

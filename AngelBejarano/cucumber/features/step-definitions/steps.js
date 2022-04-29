@@ -61,9 +61,8 @@ Then(
 
 Then(/^I should read that the Director is "(\w[\w ]*\w)"$/,
   async (director) => {
-    const movieDirectors = MovieInfo.movieDirector;
-    const directorObject = movieDirectors.findDirectorName(director);
-    const directorName = await directorObject.getText();
+    const { movieDirector } = MovieInfo;
+    const directorName = await movieDirector.findDirectorName(director);
     expect(directorName).toMatch(director);
   }
 );
