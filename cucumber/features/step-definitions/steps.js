@@ -39,7 +39,6 @@ const { toHome } = require('../page-objects/movie.list.page')
 //         expect(text).toMatch(category);
 //     });
 
-
 // SCENARIO 1
 const pages = {
   home: HomePage,
@@ -51,34 +50,37 @@ const batmanPages = {
 
 Given(/^I am on the (\w+) page$/, async (page) => await pages[page].open())
 
-When(/^on the navbar I search "(The Batman)"$/, (movie)=> {
+When(/^on the navbar I search "(The Batman)"$/, (movie) => {
   MovieList.rowHyperlink(movie)
-});
+})
 
 When(/^on the list page click "(The Batman) (2022)"$/, (movie, year) => {
-   MovieList.movieLink(movie, year).click()
- });
+  MovieList.movieLink(movie, year).click()
+})
 
-Then(  /^verify if we are in (\w+) page$/, async (pages) => {await batmanPages[pages].open()})
+Then(/^verify if we are in (\w+) page$/, async (pages) => {
+  await batmanPages[pages].open()
+})
 
-Then (/^verify if the director is "(Matt Reeves)"$/, (name) => {
+Then(/^verify if the director is "(Matt Reeves)"$/, (name) => {
   MovieList.directorName(name)
-});
+})
 
-Then (/^verify if the actor "(Robert Pattinson)"$/, (name) => {
+Then(/^verify if the actor "(Robert Pattinson)"$/, (name) => {
   MovieList.actorName(name)
-});
+})
 
-Then (/^I return to the home page/, async () => {await MovieList.toHome()})
-
+Then(/^I return to the home page/, async () => {
+  await MovieList.toHome()
+})
 
 // SCENARIO 2
 
-Then (/^validate the ranking in the IMDB is "(8.1)"$/, (name)=>{
- MovieList.starRank(name)
+Then(/^validate the ranking in the IMDB is "(8.1)"$/, (name) => {
+  MovieList.starRank(name)
 })
 
 //SCENARIO 3
-Then (/^validate if movie has genre {string} {string}$/, (name, number) => {
+Then(/^validate if movie has genre (.*) and number (.*)$/, (name, number) => {
   MovieList.nameGenre(name, number)
-});
+})
