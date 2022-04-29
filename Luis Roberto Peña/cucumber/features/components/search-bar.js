@@ -11,7 +11,7 @@ class SearchBar {
         // It's the id of the search button
         return $(`${this.parentLocator} #iconContext-magnify`);
     }
-    
+
     get categoryDropdown() {
         return $(`${this.parentLocator} .ipc-button`);
     }
@@ -23,9 +23,9 @@ class SearchBar {
         // Clicks on the Dropdown
         const dropdown = this.categoryDropdown;
         // Waits for clickable and then clicks
-        await dropdown.waitForClickable({ 
-            timeout: 2500, 
-            timeoutMsg: 'Either the nabvar or the select category dropdownn were not displayed' 
+        await dropdown.waitForClickable({
+            timeout: 2500,
+            timeoutMsg: 'Either the nabvar or the select category dropdownn were not displayed'
         });
         await dropdown.click();
         // Now wait for the Menu to be dsiplayed and searches the option and click on it
@@ -42,6 +42,13 @@ class SearchBar {
             timeoutMsg: `${category} was not clickable on the menu`
         });
         await item.click();
+    }
+
+    async searchTitle(movie){
+        const searchInput = this.input;
+        const searchBtn = this.mag;
+        await searchInput.setValue(movie);
+        await searchBtn.click();
     }
 }
 
