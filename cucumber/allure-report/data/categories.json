@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toMatch(expected)",
+      "children" : [ {
+        "name" : "Then I should see the director \"Matt Reevs\"",
+        "uid" : "81666518e13d8b88",
+        "parentUid" : "5d379c89bc58eb713d2488ec07399b25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651260696791,
+          "stop" : 1651260700610,
+          "duration" : 3819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "5d379c89bc58eb713d2488ec07399b25"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

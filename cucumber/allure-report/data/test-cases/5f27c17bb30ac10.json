@@ -1,0 +1,94 @@
+{
+  "uid" : "5f27c17bb30ac10",
+  "name" : "Then on the page I select \"Batman\" movie",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\".Then on the page I select \"Batman\" movie",
+  "historyId" : "93e2badf01984e95db38956ff0e9d7f5",
+  "time" : {
+    "start" : 1651260707651,
+    "stop" : 1651260707792,
+    "duration" : 141
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then on the page I select \"Batman\" movie"
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "672dcc3344dbc860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260242376,
+        "stop" : 1651260242534,
+        "duration" : 158
+      }
+    }, {
+      "uid" : "6e5eecbb2646829",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260085579,
+        "stop" : 1651260085800,
+        "duration" : 221
+      }
+    }, {
+      "uid" : "bcafb8d3ec8ea16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651259966134,
+        "stop" : 1651259966333,
+        "duration" : 199
+      }
+    }, {
+      "uid" : "eb5fdb1513677139",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651258631446,
+        "stop" : 1651258631753,
+        "duration" : 307
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f27c17bb30ac10.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

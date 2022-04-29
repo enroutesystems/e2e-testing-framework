@@ -1,0 +1,94 @@
+{
+  "uid" : "de95e3f7e8fc4e07",
+  "name" : "Then on the page I select \"The Batman\" movie",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\".Then on the page I select \"The Batman\" movie",
+  "historyId" : "771dd080f1ed1fbf337f446b6832f035",
+  "time" : {
+    "start" : 1651260696649,
+    "stop" : 1651260696791,
+    "duration" : 142
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then on the page I select \"The Batman\" movie"
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "68017b68f412b280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260228111,
+        "stop" : 1651260228246,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "30fd4b7c0c34c49a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651260074548,
+        "stop" : 1651260074684,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "200141987e1eabe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651259950260,
+        "stop" : 1651259950437,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "3c863e186e4d5484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651258610066,
+        "stop" : 1651258610256,
+        "duration" : 190
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de95e3f7e8fc4e07.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

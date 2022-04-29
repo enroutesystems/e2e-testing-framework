@@ -4,8 +4,8 @@ Feature: "The Batman" Movie Details Page
     Given I am on the home page
     When on the navbar I search "The Batman"
     Then on the page I select "The Batman" movie
-    Then I should see the director "Matt Reeves" 
-    Then I should see the star "Robert Pattinson"
+    Then I should see the director "Matt Reevs" 
+    Then I should see the star "Robert Pattnson"
 
   Scenario Outline: As a user, I should be able the see the ranking of the movie "8.1"
     Given I am on the home page
