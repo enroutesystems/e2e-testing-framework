@@ -66,11 +66,14 @@ Then(/^verify if we are in (\w+) page$/, async (page) => {
 })
 
 Then(/^verify if the director is "(Matt Reeves)"$/, async (name) => {
-  await MovieList.directorName(name)
+  const element = await MovieList.directorName()
+  expect(element).toHaveTextContaining(name)
 })
 
 Then(/^verify if the actor "(Robert Pattinson)"$/, async (name) => {
-  await MovieList.actorName(name)
+  const element = await MovieList.actorName()
+  expect(element).toExist()
+  expect(element).toHaveTextContaining(name)
 })
 
 Then(/^I return to the home page/, async () => {
