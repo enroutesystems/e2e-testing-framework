@@ -53,13 +53,10 @@ Scenario 2- passed all the tests
 
 ![aba4f447-a1b4-4868-98e9-531196b472e0](https://user-images.githubusercontent.com/94151927/166002087-dfd038e8-042f-4d5d-b2d9-140bab72be11.jpg)
   
-  
-![acfa1829-c7c1-494c-9c82-9f58b31ff1af](https://user-images.githubusercontent.com/94151927/166001945-222254f3-030a-4298-8b14-2735024c0bb5.jpg)
-  
  Scenario 3- passed all the test.
 In conclusion, all the Scenarios and Scenario outlines passed with 0 errors  meaning that the testing and page project were a success. 
 
-
+![acfa1829-c7c1-494c-9c82-9f58b31ff1af](https://user-images.githubusercontent.com/94151927/166001945-222254f3-030a-4298-8b14-2735024c0bb5.jpg)
 
 ### Teamwork división:
 **Roberto Jaime** and **Francisco Javier**, worked on the first Scenario mostly by peer programing ,  where **Roberto** focused on fixing the bugs  and developing the first half of reaching the page of the movie of batman, and **Francisco Javier** focused on entering to the movie batman and validating that the director Matt Reeves and actor Robert pattison where there.  
