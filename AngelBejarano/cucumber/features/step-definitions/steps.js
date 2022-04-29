@@ -40,17 +40,14 @@ Then(
 
 //---------------BATMAN----------------
 
-When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
+When(/^on the navbar I search "(\w[\w ]*\w)"$/, async (movie) => {
   //buscar batman y dar click en buscar
   await NavBar.searchBar.searchTitle(movie);
 });
 
-When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
-  const batmanLink = MovieList.rowHyperlink(movie);
-
-  await batmanLink.click();
-
-  await browser.pause(3000);
+When(/^In the search page I click on "(\w[\w ]*\w)" Title$/, async (movie) => {
+  const { rowHyperlink } = MovieList;
+  await rowHyperlink.click();
 });
 
 Then(
