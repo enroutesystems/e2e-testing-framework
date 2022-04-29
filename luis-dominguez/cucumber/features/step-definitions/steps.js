@@ -54,31 +54,34 @@ When(/^In the search page I click on "(The Batman)" Title$/,
     const batmanLink = MovieList.rowHyperlink(movie);
 
     await batmanLink.click();
+    await browser.pause(2000);
   }
 );
 
-Then(/^I should validate that the IMDB score of Batman is "(8.1)"$/,
+Then(/^I should validate that the IMDB score of Batman is "(9.1)"$/,
   async (rank) => {
     const batmanLink = MovieList.rateValue();
     const text = await batmanLink.getText();
 
     expect(text).toMatch(rank);
+    await browser.pause(2000);
   }
 );
 
-Then(/^I should read that the Director is "(Matt Reeves)" & and that "(Robert Pattinson)" is 1 of the actors$/,
+Then(/^I should validate that the Director is "(Matt Reeves)" & and that "(Robert Pattinson)" is 1 of the actors$/,
   async (director, actor) => {
     const movieDirectors = MovieInfoPage.movieDirector;
     const directorObject = movieDirectors.findDirectorName(director);
     const directorName = await directorObject.getText();
-
+    console.log(directorName);
     expect(directorName).toMatch(director);
 
     const MovieActor = MovieInfoPage.MovieActor;
     const ActorObject = MovieActor.findActor(actor);
     const ActorName = await ActorObject.getText();
-
+    console.log(ActorName);
     expect(ActorName).toMatch(actor); 
+    await browser.pause(2000);
   }
 );
 
@@ -89,5 +92,6 @@ Then(/^I should validate that the movie genres are "(Action|Crime|Drama)"$/,
     const genreName = await genreObject.getText();
 
     expect(genreName).toMatch(genre);
+    await browser.pause(2000);
   }
 );
