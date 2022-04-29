@@ -1,0 +1,78 @@
+{
+  "uid" : "c7175ee0c08420f9",
+  "name" : "Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\"",
+  "fullName" : "Movie Details Page: Test.Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\"",
+  "historyId" : "7b69c8f103db3b34a557479c203ea0cf",
+  "time" : {
+    "start" : 1651265668212,
+    "stop" : 1651265668399,
+    "duration" : 187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2b9968817e9df2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265440848,
+        "stop" : 1651265441065,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "2f896fdc8c28823b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264913084,
+        "stop" : 1651264913258,
+        "duration" : 174
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7175ee0c08420f9.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

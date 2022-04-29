@@ -1,0 +1,78 @@
+{
+  "uid" : "6847c5d55085eb13",
+  "name" : "Then I should see that the movie genres are \"Action\" \"Crime\" & \"Drama\"",
+  "fullName" : "Movie Details Page: Test3.Then I should see that the movie genres are \"Action\" \"Crime\" & \"Drama\"",
+  "historyId" : "489570ffa8fd16d99a5240283eedf263",
+  "time" : {
+    "start" : 1651265683728,
+    "stop" : 1651265684413,
+    "duration" : 685
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test3"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test3"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see that the movie genres are \"Action\" \"Crime\" & \"Drama\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c20cf5d43d7d3377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265458606,
+        "stop" : 1651265458876,
+        "duration" : 270
+      }
+    }, {
+      "uid" : "affe4a805803920b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264928825,
+        "stop" : 1651264929070,
+        "duration" : 245
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6847c5d55085eb13.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

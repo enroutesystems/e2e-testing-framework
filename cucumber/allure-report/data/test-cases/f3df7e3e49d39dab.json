@@ -1,0 +1,76 @@
+{
+  "uid" : "f3df7e3e49d39dab",
+  "name" : "And on the navbar I search \"The Batman\"",
+  "fullName" : "Movie Details Page: Test.And on the navbar I search \"The Batman\"",
+  "historyId" : "6b21150096805a8e1cbafcc6206d7f6a",
+  "time" : {
+    "start" : 1651265435964,
+    "stop" : 1651265437051,
+    "duration" : 1087
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e7d5c1bc0df7cd2",
+      "name" : "Screenshot",
+      "source" : "7e7d5c1bc0df7cd2.png",
+      "type" : "image/png",
+      "size" : 517443
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "And on the navbar I search \"The Batman\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3df7e3e49d39dab.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

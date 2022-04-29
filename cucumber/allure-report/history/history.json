@@ -1,0 +1,288 @@
+{
+  "8327c8f3fdede241eca023fac77cb9b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73fc14d3422a18a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265659520,
+        "stop" : 1651265663762,
+        "duration" : 4242
+      }
+    } ]
+  },
+  "5b899d3925c3a6473867263c13404843" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38cadcb96ce782d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265676183,
+        "stop" : 1651265676183,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6f9e5f64f89c34fda8a2d3ff04a67094" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e59c0497b32f2c6e",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should see that the IMDB Ranking is \"8.1\" Stars\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651265676182,
+        "stop" : 1651265676183,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7b69c8f103db3b34a557479c203ea0cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7175ee0c08420f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668212,
+        "stop" : 1651265668399,
+        "duration" : 187
+      }
+    } ]
+  },
+  "6b21150096805a8e1cbafcc6206d7f6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9e9e8ae529968d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265663762,
+        "stop" : 1651265664725,
+        "duration" : 963
+      }
+    } ]
+  },
+  "e068ca27f312eaeec33b717b95589d19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e8ddeb76c08f492",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265676188,
+        "stop" : 1651265678084,
+        "duration" : 1896
+      }
+    } ]
+  },
+  "ac6c65d89fad13eaed92fc2b96e40e8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c02cfed39c08090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265664725,
+        "stop" : 1651265668212,
+        "duration" : 3487
+      }
+    } ]
+  },
+  "3cea8b4c5e9d4ec3ba289f8017228f8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c834549530a127c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265672491,
+        "stop" : 1651265676182,
+        "duration" : 3691
+      }
+    } ]
+  },
+  "615f292037be128789aaeb946b793c9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dd4f2e48c16a207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668409,
+        "stop" : 1651265670423,
+        "duration" : 2014
+      }
+    } ]
+  },
+  "d8a6654bd92a8ffd151c4ee6b704aae8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "169ac8bfbe4cfd82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265684413,
+        "stop" : 1651265684413,
+        "duration" : 0
+      }
+    } ]
+  },
+  "489570ffa8fd16d99a5240283eedf263" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6847c5d55085eb13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265683728,
+        "stop" : 1651265684413,
+        "duration" : 685
+      }
+    } ]
+  },
+  "52068919be7138b9073931e19b69982f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a119e37661a33b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668399,
+        "stop" : 1651265668400,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ab6b5dadc1c4da310e081970df7175a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8562f1641a5b89e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265678084,
+        "stop" : 1651265680400,
+        "duration" : 2316
+      }
+    } ]
+  },
+  "4c3ad60d5918c58cc6309681cfb6b19c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76214def734c1ab5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265680400,
+        "stop" : 1651265683727,
+        "duration" : 3327
+      }
+    } ]
+  },
+  "56cd3dc124ecad7dd5a1e5688b1c57f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8846051d97e79ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265670424,
+        "stop" : 1651265672491,
+        "duration" : 2067
+      }
+    } ]
+  }
+}

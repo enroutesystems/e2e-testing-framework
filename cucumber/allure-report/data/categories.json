@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Step \"I should see that the IMDB Ranking is \"8.1\" Stars\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "Then I should see that the IMDB Ranking is \"8.1\" Stars",
+        "uid" : "e59c0497b32f2c6e",
+        "parentUid" : "1e1ac9a33c1d88790093d4a41aee9a3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651265676182,
+          "stop" : 1651265676183,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-100.0.4896.127" ]
+      } ],
+      "uid" : "1e1ac9a33c1d88790093d4a41aee9a3c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

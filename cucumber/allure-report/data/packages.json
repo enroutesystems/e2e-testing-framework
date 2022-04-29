@@ -1,0 +1,272 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Movie Details Page: Test",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "73fc14d3422a18a9",
+      "parentUid" : "9859a9f0b0ce1e82d6f2ed2bfb1203a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265659520,
+        "stop" : 1651265663762,
+        "duration" : 4242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "And on the navbar I search \"The Batman\"",
+      "uid" : "d9e9e8ae529968d6",
+      "parentUid" : "9859a9f0b0ce1e82d6f2ed2bfb1203a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265663762,
+        "stop" : 1651265664725,
+        "duration" : 963
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the result page I select \"The Batman\"",
+      "uid" : "6c02cfed39c08090",
+      "parentUid" : "9859a9f0b0ce1e82d6f2ed2bfb1203a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265664725,
+        "stop" : 1651265668212,
+        "duration" : 3487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\"",
+      "uid" : "c7175ee0c08420f9",
+      "parentUid" : "9859a9f0b0ce1e82d6f2ed2bfb1203a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668212,
+        "stop" : 1651265668399,
+        "duration" : 187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "a119e37661a33b4a",
+      "parentUid" : "9859a9f0b0ce1e82d6f2ed2bfb1203a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668399,
+        "stop" : 1651265668400,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "9859a9f0b0ce1e82d6f2ed2bfb1203a2"
+  }, {
+    "name" : "Movie Details Page: Test2",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "3dd4f2e48c16a207",
+      "parentUid" : "42d8dce53391edda7da4e7a4b573ea1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668409,
+        "stop" : 1651265670423,
+        "duration" : 2014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "And on the navbar I search \"The Batman\"",
+      "uid" : "d8846051d97e79ab",
+      "parentUid" : "42d8dce53391edda7da4e7a4b573ea1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265670424,
+        "stop" : 1651265672491,
+        "duration" : 2067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the result page I select \"The Batman\"",
+      "uid" : "8c834549530a127c",
+      "parentUid" : "42d8dce53391edda7da4e7a4b573ea1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265672491,
+        "stop" : 1651265676182,
+        "duration" : 3691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I should see that the IMDB Ranking is \"8.1\" Stars",
+      "uid" : "e59c0497b32f2c6e",
+      "parentUid" : "42d8dce53391edda7da4e7a4b573ea1b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1651265676182,
+        "stop" : 1651265676183,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "38cadcb96ce782d0",
+      "parentUid" : "42d8dce53391edda7da4e7a4b573ea1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265676183,
+        "stop" : 1651265676183,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "42d8dce53391edda7da4e7a4b573ea1b"
+  }, {
+    "name" : "Movie Details Page: Test3",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "8e8ddeb76c08f492",
+      "parentUid" : "2a468e788f956c100ae13bf1fb20f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265676188,
+        "stop" : 1651265678084,
+        "duration" : 1896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "And on the navbar I search \"The Batman\"",
+      "uid" : "8562f1641a5b89e",
+      "parentUid" : "2a468e788f956c100ae13bf1fb20f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265678084,
+        "stop" : 1651265680400,
+        "duration" : 2316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the result page I select \"The Batman\"",
+      "uid" : "76214def734c1ab5",
+      "parentUid" : "2a468e788f956c100ae13bf1fb20f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265680400,
+        "stop" : 1651265683727,
+        "duration" : 3327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I should see that the movie genres are \"Action\" \"Crime\" & \"Drama\"",
+      "uid" : "6847c5d55085eb13",
+      "parentUid" : "2a468e788f956c100ae13bf1fb20f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265683728,
+        "stop" : 1651265684413,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "169ac8bfbe4cfd82",
+      "parentUid" : "2a468e788f956c100ae13bf1fb20f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265684413,
+        "stop" : 1651265684413,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "2a468e788f956c100ae13bf1fb20f4f8"
+  } ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "db307b8501708f77",
+  "name" : "Then I should see that the IMDB Ranking is \"8.1\" Stars",
+  "fullName" : "Movie Details Page: Test2.Then I should see that the IMDB Ranking is \"8.1\" Stars",
+  "historyId" : "6f9e5f64f89c34fda8a2d3ff04a67094",
+  "time" : {
+    "start" : 1651265449502,
+    "stop" : 1651265449698,
+    "duration" : 196
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90af20e9a2691e2f",
+      "name" : "Screenshot",
+      "source" : "90af20e9a2691e2f.png",
+      "type" : "image/png",
+      "size" : 230537
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see that the IMDB Ranking is \"8.1\" Stars"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db307b8501708f77.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

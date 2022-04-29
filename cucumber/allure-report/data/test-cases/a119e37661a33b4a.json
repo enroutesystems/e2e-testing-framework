@@ -1,0 +1,102 @@
+{
+  "uid" : "a119e37661a33b4a",
+  "name" : "",
+  "fullName" : "Movie Details Page: Test.",
+  "historyId" : "52068919be7138b9073931e19b69982f",
+  "time" : {
+    "start" : 1651265668399,
+    "stop" : 1651265668400,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bee5f8838d18f494",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265659518,
+        "stop" : 1651265659520,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "afc479cc741d10da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265441065,
+        "stop" : 1651265441066,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e076e6dcb3af51c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265431180,
+        "stop" : 1651265431182,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4aaeaa7609638d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264913258,
+        "stop" : 1651264913259,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "82f9ca3cad6c2968",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264902217,
+        "stop" : 1651264902219,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a119e37661a33b4a.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

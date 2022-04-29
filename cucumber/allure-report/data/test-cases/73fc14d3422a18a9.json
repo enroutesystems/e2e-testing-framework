@@ -1,0 +1,78 @@
+{
+  "uid" : "73fc14d3422a18a9",
+  "name" : "Given I am on the home page",
+  "fullName" : "Movie Details Page: Test.Given I am on the home page",
+  "historyId" : "8327c8f3fdede241eca023fac77cb9b2",
+  "time" : {
+    "start" : 1651265659520,
+    "stop" : 1651265663762,
+    "duration" : 4242
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c8f83ac592841d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265431182,
+        "stop" : 1651265435964,
+        "duration" : 4782
+      }
+    }, {
+      "uid" : "bfca2dc6eb0effdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264902219,
+        "stop" : 1651264906411,
+        "duration" : 4192
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73fc14d3422a18a9.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
