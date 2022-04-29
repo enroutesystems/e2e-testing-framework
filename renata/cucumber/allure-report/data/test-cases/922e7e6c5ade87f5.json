@@ -1,0 +1,60 @@
+{
+  "uid" : "922e7e6c5ade87f5",
+  "name" : "Given I am on the home page",
+  "fullName" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars.Given I am on the home page",
+  "historyId" : "a864fc80c2a000d8adb588fafa78a7d5",
+  "time" : {
+    "start" : 1651268191357,
+    "stop" : 1651268193279,
+    "duration" : 1922
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "922e7e6c5ade87f5.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

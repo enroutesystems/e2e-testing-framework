@@ -1,0 +1,166 @@
+{
+  "uid" : "e9ffa8d44068ba06",
+  "name" : "",
+  "fullName" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor..",
+  "historyId" : "7d78bc508da4f2f6b8771e0ee78ed11",
+  "time" : {
+    "start" : 1651269277297,
+    "stop" : 1651269277298,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bef90a62381ef01f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651269267193,
+        "stop" : 1651269267194,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f3ea59341e461d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268910118,
+        "stop" : 1651268910118,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4212d97add5064e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268897299,
+        "stop" : 1651268897300,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4dcaec307fff4419",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268809437,
+        "stop" : 1651268809438,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a1cd01ca9b1cf19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268798773,
+        "stop" : 1651268798774,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d47245bb519853b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268749001,
+        "stop" : 1651268749002,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f7fe233708ce1855",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268715894,
+        "stop" : 1651268715896,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "245e9015dd0650c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268548787,
+        "stop" : 1651268548787,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5cf620fbf17bbf62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268538015,
+        "stop" : 1651268538018,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "75d06bd299a043b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268191344,
+        "stop" : 1651268191344,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "81b192b877715d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268181148,
+        "stop" : 1651268181150,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "db3534233a55b98b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267962503,
+        "stop" : 1651267962503,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "757727906685a905",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267952166,
+        "stop" : 1651267952168,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9ffa8d44068ba06.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

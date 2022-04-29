@@ -1,0 +1,110 @@
+{
+  "uid" : "fe7f87f04851f135",
+  "name" : "Then check if the actor is \"Robert Pattinson\"",
+  "fullName" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor..Then check if the actor is \"Robert Pattinson\"",
+  "historyId" : "3b2b3ed31a0b9eeb772dcbed2f4366c",
+  "time" : {
+    "start" : 1651269277090,
+    "stop" : 1651269277296,
+    "duration" : 206
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the actor is \"Robert Pattinson\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "507cfab4236d7a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268909866,
+        "stop" : 1651268910118,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "6b3571d6886e99b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268809411,
+        "stop" : 1651268809437,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "c9a01f642156cb79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268748975,
+        "stop" : 1651268749001,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "28f40cb163fffec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268548556,
+        "stop" : 1651268548787,
+        "duration" : 231
+      }
+    }, {
+      "uid" : "764498de451923d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268191307,
+        "stop" : 1651268191344,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "5bd7e5fa5999e934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267962382,
+        "stop" : 1651267962503,
+        "duration" : 121
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe7f87f04851f135.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

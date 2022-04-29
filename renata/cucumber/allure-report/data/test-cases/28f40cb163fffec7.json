@@ -1,0 +1,76 @@
+{
+  "uid" : "28f40cb163fffec7",
+  "name" : "Then check if the actor is \"Robert Pattinson\"",
+  "fullName" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor..Then check if the actor is \"Robert Pattinson\"",
+  "historyId" : "3b2b3ed31a0b9eeb772dcbed2f4366c",
+  "time" : {
+    "start" : 1651268548556,
+    "stop" : 1651268548787,
+    "duration" : 231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81db73611fdbfd69",
+      "name" : "Screenshot",
+      "source" : "81db73611fdbfd69.png",
+      "type" : "image/png",
+      "size" : 448166
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the actor is \"Robert Pattinson\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28f40cb163fffec7.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

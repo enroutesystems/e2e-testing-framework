@@ -1,0 +1,110 @@
+{
+  "uid" : "d4c8a5b33cbfc047",
+  "name" : "Then check if the movie has \"8.1\" stars",
+  "fullName" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars.Then check if the movie has \"8.1\" stars",
+  "historyId" : "3b47edb4844465c72bed722c0cfa7745",
+  "time" : {
+    "start" : 1651269285470,
+    "stop" : 1651269285508,
+    "duration" : 38
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has \"8.1\" stars"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "744f5d61fb3dd0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268920896,
+        "stop" : 1651268921236,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "d56a6be2aae8cec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268818008,
+        "stop" : 1651268818496,
+        "duration" : 488
+      }
+    }, {
+      "uid" : "daefff8f1a783377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268756390,
+        "stop" : 1651268756539,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "38c082d06b48bb16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268557900,
+        "stop" : 1651268558242,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "86abbaf77f38d92f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268199547,
+        "stop" : 1651268199729,
+        "duration" : 182
+      }
+    }, {
+      "uid" : "11445a39edbe4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267971612,
+        "stop" : 1651267971662,
+        "duration" : 50
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4c8a5b33cbfc047.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

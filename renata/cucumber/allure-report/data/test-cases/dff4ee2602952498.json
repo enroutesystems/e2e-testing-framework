@@ -1,0 +1,110 @@
+{
+  "uid" : "dff4ee2602952498",
+  "name" : "When on the navbar I search movie \"The Batman\"",
+  "fullName" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars.When on the navbar I search movie \"The Batman\"",
+  "historyId" : "356b47b78036fad68c2cb35de9db446",
+  "time" : {
+    "start" : 1651269279950,
+    "stop" : 1651269283038,
+    "duration" : 3088
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testMethod",
+    "value" : "When on the navbar I search movie \"The Batman\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e54ed7691d2e5f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268913249,
+        "stop" : 1651268917488,
+        "duration" : 4239
+      }
+    }, {
+      "uid" : "3c0ce7797c77eb55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268811391,
+        "stop" : 1651268815171,
+        "duration" : 3780
+      }
+    }, {
+      "uid" : "44a400b7a19a4f40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268751114,
+        "stop" : 1651268754264,
+        "duration" : 3150
+      }
+    }, {
+      "uid" : "f75297ef018ba5b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268551639,
+        "stop" : 1651268554829,
+        "duration" : 3190
+      }
+    }, {
+      "uid" : "82b7db5ea1726568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268193279,
+        "stop" : 1651268197133,
+        "duration" : 3854
+      }
+    }, {
+      "uid" : "8611440f2d72b431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267964535,
+        "stop" : 1651267968722,
+        "duration" : 4187
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dff4ee2602952498.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "982e3393f8ce18c",
+  "name" : "Then check if the director is \"Matt Reeves\"",
+  "fullName" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor..Then check if the director is \"Matt Reeves\"",
+  "historyId" : "96bfbb30b331dcf4af7a1b205c462d28",
+  "time" : {
+    "start" : 1651268909584,
+    "stop" : 1651268909865,
+    "duration" : 281
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9f61fe3d741e0b98",
+      "name" : "Screenshot",
+      "source" : "9f61fe3d741e0b98.png",
+      "type" : "image/png",
+      "size" : 434899
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the director is \"Matt Reeves\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "982e3393f8ce18c.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

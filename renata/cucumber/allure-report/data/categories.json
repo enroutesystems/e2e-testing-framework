@@ -7,19 +7,19 @@
       "name" : "Step \"check if the movie has the genre of \"Dorama\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
       "children" : [ {
         "name" : "Then check if the movie has the genre of \"Dorama\"",
-        "uid" : "881900e150ac034",
+        "uid" : "2b58f67d3358aacf",
         "parentUid" : "c81bae9716545af2f308f476328fd036",
         "status" : "broken",
         "time" : {
-          "start" : 1651268932797,
-          "stop" : 1651268932799,
-          "duration" : 2
+          "start" : 1651269294019,
+          "stop" : 1651269294020,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 5,
+        "retriesCount" : 6,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-100.0.4896.127" ]
       } ],

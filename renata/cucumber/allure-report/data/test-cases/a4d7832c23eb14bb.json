@@ -1,0 +1,166 @@
+{
+  "uid" : "a4d7832c23eb14bb",
+  "name" : "",
+  "fullName" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars.",
+  "historyId" : "ba68fe85bb9763cdc2c20b85f0206f41",
+  "time" : {
+    "start" : 1651269285508,
+    "stop" : 1651269285508,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8.1 Stars"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "477f4cb5e21108bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651269277310,
+        "stop" : 1651269277310,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "87adce943a2d28ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268921236,
+        "stop" : 1651268921237,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "41fd1e9521ef8501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268910130,
+        "stop" : 1651268910131,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "44144ea09752224a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268818496,
+        "stop" : 1651268818497,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d6a0a8e2d1ade218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268809449,
+        "stop" : 1651268809449,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d13d6f1e830f23ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268756539,
+        "stop" : 1651268756539,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a923c880ec208b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268749012,
+        "stop" : 1651268749012,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e42fc7f00fc9317d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268558242,
+        "stop" : 1651268558243,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cdede5876179c07e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268548800,
+        "stop" : 1651268548800,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9541a3f16cbbb7fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268199729,
+        "stop" : 1651268199730,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "91986bb9b90ade7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268191357,
+        "stop" : 1651268191357,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae60373a56a74f84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267971662,
+        "stop" : 1651267971662,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2489ad6646b09f1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267962514,
+        "stop" : 1651267962514,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4d7832c23eb14bb.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

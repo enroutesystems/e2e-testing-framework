@@ -14,4 +14,4 @@ Feature: Movie Details Page
     Scenario: Validate Genres
         Then check if the movie has the genre of "Acción"
         Then check if the movie has the genre of "Crimen"
-        Then check if the movie has the genre of "Dorama"
+        Then check if the movie has the genre of "Drama"

@@ -266,11 +266,13 @@ exports.config = {
      * @param {Object}             context          Cucumber World object
      */
     afterStep: async function (test, scenario, { error, duration, passed }) {
-        await browser.takeScreenshot().then(function (png) {
-            var fs = require('fs');
-            var decodedImage = new Buffer(png, 'base64').toString('binary');
-            scenario.attach(decodedImage, 'image/png');
-        });
+        if(error){
+            await browser.takeScreenshot().then(function (png) {
+                var fs = require('fs');
+                var decodedImage = new Buffer(png, 'base64').toString('binary');
+                scenario.attach(decodedImage, 'image/png');
+            });
+        }
     }
     /**
      *

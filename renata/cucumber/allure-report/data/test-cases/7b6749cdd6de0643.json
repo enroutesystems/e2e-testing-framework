@@ -1,0 +1,110 @@
+{
+  "uid" : "7b6749cdd6de0643",
+  "name" : "Then check if the movie has the genre of \"Crimen\"",
+  "fullName" : "Movie Details Page: Validate Genres.Then check if the movie has the genre of \"Crimen\"",
+  "historyId" : "96208d9b1891b33272324508bc974ed6",
+  "time" : {
+    "start" : 1651269293999,
+    "stop" : 1651269294019,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has the genre of \"Crimen\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25095bb0edfaf625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268932411,
+        "stop" : 1651268932797,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "8b02b2a8db0b91b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268827483,
+        "stop" : 1651268827509,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "3890b293e55e43a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268763849,
+        "stop" : 1651268763881,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "602d17f025b93750",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268568176,
+        "stop" : 1651268568606,
+        "duration" : 430
+      }
+    }, {
+      "uid" : "ae8e43ac3a298923",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651268207706,
+        "stop" : 1651268208030,
+        "duration" : 324
+      }
+    }, {
+      "uid" : "a9a1a03bd77defe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651267979408,
+        "stop" : 1651267979443,
+        "duration" : 35
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b6749cdd6de0643.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
