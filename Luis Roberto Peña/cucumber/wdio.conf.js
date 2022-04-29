@@ -67,6 +67,7 @@ exports.config = {
       }
     }
   ],
+
   //
   // ===================
   // Test Configurations
