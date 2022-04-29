@@ -10,3 +10,11 @@ Feature: Movie Details Page
 
   Scenario: In Batman details I should verify that the Validate the IMDB Ranking of Batman is 8.1 Stars
     Then I should verify that the Validate the IMDB Ranking of Batman is "8.1"
+
+  Scenario: In Batman details I should validate that the movie genres are "Action", "Crime" & "Drama"
+    Then I should Validate that the movie genres is "<Genre>"
+    Examples:
+      | Genre  |
+      | Action |
+      | Crime  |
+      | Drama  |

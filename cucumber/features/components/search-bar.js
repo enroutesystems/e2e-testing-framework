@@ -8,6 +8,7 @@ class SearchBar {
     }
 
     get mag() {
+        // It's the id of the search button
         return $(`${this.parentLocator} #iconContext-magnify`);
     }
     

@@ -9,8 +9,14 @@ class MovieList {
     }
 
     rowHyperlink(text) {
-        return $(this.parentLocator).$(`.result_text=${text}`);
+        return $(`.result_text`).$(`a`);
+        //return $(this.parentLocator).$(`.result_text=${text}`);
     }
+    
+    rateValue(value) {
+        return $(`.sc-7ab21ed2-1.jGRxWM`);
+    }
+    
 }
 
 module.exports = new MovieList;
