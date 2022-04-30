@@ -1,19 +1,19 @@
 {
   "total" : 5,
   "items" : [ {
-    "uid" : "73bbf3d1d502724cd3da807775ad8d89",
-    "name" : "Movie Details Page: Navigate and search the \"Batman Movie\"",
+    "uid" : "cb061c1a3df18e7b66c15d3b16f66197",
+    "name" : "Movie Details Page: Validate Genres",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 3,
       "unknown" : 0,
       "total" : 4
     }
   }, {
-    "uid" : "cb061c1a3df18e7b66c15d3b16f66197",
-    "name" : "Movie Details Page: Validate Genres",
+    "uid" : "73bbf3d1d502724cd3da807775ad8d89",
+    "name" : "Movie Details Page: Navigate and search the \"Batman Movie\"",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
