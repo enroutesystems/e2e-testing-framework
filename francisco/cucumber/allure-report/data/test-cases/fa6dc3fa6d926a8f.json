@@ -1,0 +1,60 @@
+{
+  "uid" : "fa6dc3fa6d926a8f",
+  "name" : "When on the navbar I search movie \"The Batman\"",
+  "fullName" : "Movie Details Page: Navigate and search the \"Batman Movie\".When on the navbar I search movie \"The Batman\"",
+  "historyId" : "4879cda90ca14f10fb87548f514dbdcd",
+  "time" : {
+    "start" : 1651279281486,
+    "stop" : 1651279284139,
+    "duration" : 2653
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "testMethod",
+    "value" : "When on the navbar I search movie \"The Batman\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa6dc3fa6d926a8f.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
