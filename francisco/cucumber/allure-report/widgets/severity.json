@@ -1,0 +1,171 @@
+[ {
+  "uid" : "72f9614d0de6ec0",
+  "name" : "Then I click play on trailer button",
+  "time" : {
+    "start" : 1651279954580,
+    "stop" : 1651279959782,
+    "duration" : 5202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b9cbe0ee060244",
+  "name" : "",
+  "time" : {
+    "start" : 1651279952769,
+    "stop" : 1651279952769,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b28d15db1f30aea1",
+  "name" : "Then I play trailer in a new page",
+  "time" : {
+    "start" : 1651279952776,
+    "stop" : 1651279954580,
+    "duration" : 1804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd39ad985a4a35ef",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651279940048,
+    "stop" : 1651279944041,
+    "duration" : 3993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b098b71c04001b20",
+  "name" : "",
+  "time" : {
+    "start" : 1651279964852,
+    "stop" : 1651279964852,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f49289c0d01496c9",
+  "name" : "Then check if the movie has the genre of \"Crimen\"",
+  "time" : {
+    "start" : 1651279952402,
+    "stop" : 1651279952453,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d10eb8233c8a3fe0",
+  "name" : "Then check if the movie has the genre of \"Drama\"",
+  "time" : {
+    "start" : 1651279952453,
+    "stop" : 1651279952769,
+    "duration" : 316
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3891f67edf9510f5",
+  "name" : "Then check if the actor is \"Robert Pattinson\"",
+  "time" : {
+    "start" : 1651279952168,
+    "stop" : 1651279952269,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c760e8316801858b",
+  "name" : "",
+  "time" : {
+    "start" : 1651279952269,
+    "stop" : 1651279952270,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f833d2baa08d111",
+  "name" : "Then check if the movie has the genre of \"Acción\"",
+  "time" : {
+    "start" : 1651279952342,
+    "stop" : 1651279952402,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5384ca128183827d",
+  "name" : "Then check if the director is \"Matt Reeves\"",
+  "time" : {
+    "start" : 1651279951786,
+    "stop" : 1651279952168,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6f8cbad957a288",
+  "name" : "Then I select the movie",
+  "time" : {
+    "start" : 1651279946865,
+    "stop" : 1651279951774,
+    "duration" : 4909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10ccacd967556742",
+  "name" : "",
+  "time" : {
+    "start" : 1651279951774,
+    "stop" : 1651279951775,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6ee58d524194edc",
+  "name" : "Then The trailer is playing",
+  "time" : {
+    "start" : 1651279959782,
+    "stop" : 1651279964851,
+    "duration" : 5069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a2898c6863e701",
+  "name" : "Then check if the movie has \"8,1\" stars",
+  "time" : {
+    "start" : 1651279952275,
+    "stop" : 1651279952338,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87e48ab450d9f282",
+  "name" : "",
+  "time" : {
+    "start" : 1651279952338,
+    "stop" : 1651279952338,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28f057f6456a61f0",
+  "name" : "When on the navbar I search movie \"The Batman\"",
+  "time" : {
+    "start" : 1651279944041,
+    "stop" : 1651279946865,
+    "duration" : 2824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
