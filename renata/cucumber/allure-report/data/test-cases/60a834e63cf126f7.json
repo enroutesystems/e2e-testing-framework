@@ -1,0 +1,60 @@
+{
+  "uid" : "60a834e63cf126f7",
+  "name" : "Then I play trailer in a new page",
+  "fullName" : "Movie Details Page: check that the player \"Status\" is \"playing\".Then I play trailer in a new page",
+  "historyId" : "f3c5372e3926f1d1c40a5bf63fd38d27",
+  "time" : {
+    "start" : 1651279084265,
+    "stop" : 1651279085436,
+    "duration" : 1171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I play trailer in a new page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60a834e63cf126f7.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
