@@ -1,0 +1,60 @@
+{
+  "uid" : "fc26078b21789ce0",
+  "name" : "Then check if the movie has \"8,1\" stars",
+  "fullName" : "Movie Details Page: Validate the IMDB Ranking is 8,1 Stars.Then check if the movie has \"8,1\" stars",
+  "historyId" : "a5aeb1ef4f50730022927afca2423019",
+  "time" : {
+    "start" : 1651279874652,
+    "stop" : 1651279874698,
+    "duration" : 46
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8,1 Stars"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8,1 Stars"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has \"8,1\" stars"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate the IMDB Ranking is 8,1 Stars"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc26078b21789ce0.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
