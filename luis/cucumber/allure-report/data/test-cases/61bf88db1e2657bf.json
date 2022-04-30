@@ -1,0 +1,80 @@
+{
+  "uid" : "61bf88db1e2657bf",
+  "name" : "Then check if the movie has the genre of \"Drama\"",
+  "fullName" : "Movie Details Page: Validate Genres.Then check if the movie has the genre of \"Drama\"",
+  "historyId" : "d4f7963f43989f8d56bae6faf6d25ec3",
+  "time" : {
+    "start" : 1651279237527,
+    "stop" : 1651279237821,
+    "duration" : 294
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toMatch(expected)",
+  "statusTrace" : "Error: expect(received).toMatch(expected)\n                \n                Expected substring: \"Dorama\"\n                Received string:    \"Drama\"\n                    at World.<anonymous> (C:\\Users\\Renata\\Desktop\\rockstars-8g\\e2e-testing-framework\\cucumber\\features\\step-definitions\\steps.js:49:21)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toMatch(expected)",
+    "statusTrace" : "Error: expect(received).toMatch(expected)\n                \n                Expected substring: \"Dorama\"\n                Received string:    \"Drama\"\n                    at World.<anonymous> (C:\\Users\\Renata\\Desktop\\rockstars-8g\\e2e-testing-framework\\cucumber\\features\\step-definitions\\steps.js:49:21)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fe5f45c20c1e2e8",
+      "name" : "Screenshot",
+      "source" : "4fe5f45c20c1e2e8.png",
+      "type" : "image/png",
+      "size" : 425678
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has the genre of \"Drama\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61bf88db1e2657bf.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
