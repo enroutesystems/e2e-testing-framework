@@ -12,7 +12,7 @@ Feature: Movie Details Page
     Then I should read that "Robert Pattinson" is 1 of the actors
 
   Scenario: In Batman details I should verify that the Validate the IMDB Ranking of Batman is 8.1 Stars
-    Then I should verify that the Validate the IMDB Ranking of Batman is "8.1"
+    Then I should verify that the Validate the IMDB Ranking is "8.1"
 
   Scenario: In Batman details I should validate that the movie genres are "Action", "Crime" & "Drama"
     Then I should Validate that the movie genre is "<Genre>"

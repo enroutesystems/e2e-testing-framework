@@ -50,7 +50,7 @@ When(/^In the search page I click on "(\w[\w ]*\w)" Title$/, async (movie) => {
 });
 
 Then(
-  /^I should verify that the Validate the IMDB Ranking of Batman is "(8.1)"$/,
+  /^I should verify that the Validate the IMDB Ranking is "([0-9]+\.?[0-9]*)"$/,
   async (rank) => {
     const { rateValue } = MovieInfo;
     const text = await rateValue.getText();
@@ -76,11 +76,10 @@ Then(/^I should read that "(\w[\w ]*\w)" is 1 of the actors$/,
 );
 
 Then(
-  /^I should Validate that the movie genre is "(Action|Crime|Drama)"$/,
+  /^I should Validate that the movie genre is "(\w+)"$/,
   async (genre) => {
     const { MovieGenre } = MovieInfo;
-    const genreObject = MovieGenre.findGenre(genre);
-    const genreName = await genreObject.getText();
+    const genreName = await MovieGenre.findGenre(genre);
     expect(genreName).toMatch(genre);
   }
 );
