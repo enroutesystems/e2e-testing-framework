@@ -3,7 +3,7 @@ const MovieActor = require("../components/movieActor");
 const MovieGenre = require("../components/movieGenre");
 
 class MovieInfo {
-  get movieDirector() {
+  get MovieDirector() {
     return MovieDirector;
   }
 
@@ -13,6 +13,10 @@ class MovieInfo {
 
   get MovieGenre() {
     return MovieGenre;
+  }
+
+  get rateValue() {
+    return $(`.sc-7ab21ed2-1.jGRxWM`);
   }
 }
 

@@ -43,6 +43,13 @@ class SearchBar {
         });
         await item.click();
     }
+
+    async searchTitle(movie){
+        const searchInput = this.input;
+        const searchBtn = this.mag;
+        await searchInput.setValue(movie);
+        await searchBtn.click();
+    }
 }
 
 /**

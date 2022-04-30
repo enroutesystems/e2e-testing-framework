@@ -1,7 +1,7 @@
 const { Given, When, Then } = require("@wdio/cucumber-framework");
 
 const HomePage = require("../page-objects/home.page");
-const MovieInfoPage = require("../page-objects/movie.info.page");
+const MovieInfo = require("../page-objects/movie.info.page");
 const NavBar = require("../page-objects/global/navbar");
 const MovieList = require("../page-objects/movie.list.page");
 
@@ -40,68 +40,46 @@ Then(
 
 //---------------BATMAN----------------
 
-When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
-  //buscar batman y dar click en buscar
-
-  const searchInput = NavBar.searchBar.input;
-  const searchBtn = NavBar.searchBar.mag;
-
-  await searchInput.setValue(movie);
-  await searchBtn.click();
-
-  // async (category) => await NavBar.searchBar.selectCategory(category));
-  // //...
-  // const batmanLink = MovieList.rowHyperlink(movie);
-  // batmanLink.click();
+When(/^on the navbar I search "(\w[\w ]*\w)"$/, async (movie) => {
+  await NavBar.searchBar.searchTitle(movie);
 });
 
-When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
-  const batmanLink = MovieList.rowHyperlink(movie);
-
-  await batmanLink.click();
-
-  await browser.pause(3000);
+When(/^In the search page I click on "(\w[\w ]*\w)" Title$/, async (movie) => {
+  const { rowHyperlink } = MovieList;
+  await rowHyperlink.click();
 });
 
 Then(
-  /^I should verify that the Validate the IMDB Ranking of Batman is "(8.1)"$/,
+  /^I should verify that the Validate the IMDB Ranking is "([0-9]+\.?[0-9]*)"$/,
   async (rank) => {
-    const batmanLink = MovieList.rateValue();
-    const text = await batmanLink.getText();
+    const { rateValue } = MovieInfo;
+    const text = await rateValue.getText();
     expect(text).toMatch(rank);
   }
 );
 
 
-Then(/^I should read that the Director is "(Matt Reeves)" & and than "(Robert Pattinson)" is 1 of the actors$/,
-async (director, actor) => {
-  //validar director
-  const movieDirectors = MovieInfoPage.movieDirector;
-  const directorObject = movieDirectors.findDirectorName(director);
-  const directorName = await directorObject.getText();
-  // console.log("------------------------------------------------------")
-  // console.log('DIRECTOR OBJECT: ', directorName, " - DIRECTOR PARAM: ", director);
-  // await browser.pause(3000);
-  expect(directorName).toMatch(director);
+Then(/^I should read that the Director is "(\w[\w ]*\w)"$/,
+  async (director) => {
+    const { MovieDirector } = MovieInfo;
+    const directorName = await MovieDirector.findDirectorName(director);
+    expect(directorName).toMatch(director);
+  }
+);
 
-  //validar actor
-  const MovieActor = MovieInfoPage.MovieActor;
-  const ActorObject = MovieActor.findActor(actor);
-
-  const ActorName = await ActorObject.getText();
-  expect(ActorName).toMatch(actor);
-  // await browser.pause(3000);
-
-  //
-});
+Then(/^I should read that "(\w[\w ]*\w)" is 1 of the actors$/,
+  async (actor) => {
+    const { MovieActor } = MovieInfo;
+    const ActorName = await MovieActor.findActor(actor);
+    expect(ActorName).toMatch(actor);
+  }
+);
 
 Then(
-    /^I should Validate that the movie genres is "(Action|Crime|Drama)"$/,
-    async (genre) => {
-      const MovieGenre = MovieInfoPage.MovieGenre;
-      const genreObject = MovieGenre.findGenre(genre);
-
-      const genreName = await genreObject.getText();
-      expect(genreName).toMatch(genre);
-    }
+  /^I should Validate that the movie genre is "(\w+)"$/,
+  async (genre) => {
+    const { MovieGenre } = MovieInfo;
+    const genreName = await MovieGenre.findGenre(genre);
+    expect(genreName).toMatch(genre);
+  }
 );

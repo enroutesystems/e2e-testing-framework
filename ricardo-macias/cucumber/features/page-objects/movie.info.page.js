@@ -14,7 +14,6 @@ class MovieInfo {
   get MovieGenre() {
     return MovieGenre;
   }
-
 }
 
 module.exports = new MovieInfo();

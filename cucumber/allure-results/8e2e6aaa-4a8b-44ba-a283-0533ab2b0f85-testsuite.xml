@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651268737949' stop='1651268743656'>
+    <name>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</name>
+    <title>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</title>
+    <test-cases>
+        <test-case start='1651268737949' status='passed' stop='1651268737949'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651268737949' status='passed' stop='1651268740104'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651268740104' status='passed' stop='1651268741521'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651268741521' status='broken' stop='1651268743655'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5e59f962-c715-44a4-a9e4-add458d6c16f-attachment.png' type='image/png' size='2723103'/>
+            </attachments>
+            <failure>
+                <message>Error: We either navigate top level or have old version of the navigated frame</message>
+                <stack-trace>Error: We either navigate top level or have old version of the navigated frame
+                    at assert (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/common/assert.js:26:15)
+                    at FrameManager._onFrameNavigated (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/common/FrameManager.js:256:32)
+                    at /Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/common/FrameManager.js:65:18
+                    at /Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/vendor/mitt/src/index.js:51:62
+                    at Array.map (&lt;anonymous>)
+                    at Object.emit (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/vendor/mitt/src/index.js:51:43)
+                    at CDPSession.emit (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/common/EventEmitter.js:72:22)
+                    at CDPSession._onMessage (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:249:18)
+                    at Connection._onMessage (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:117:25)
+                    at WebSocket.&lt;anonymous> (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/cucumber/node_modules/puppeteer-core/lib/cjs/puppeteer/node/NodeWebSocketTransport.js:13:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651268743655' status='undefined'>
+            <name>Then I should Validate that the movie genres is "Action"</name>
+            <title>Then I should Validate that the movie genres is "Action"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651268743656' status='passed' stop='1651268743656'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

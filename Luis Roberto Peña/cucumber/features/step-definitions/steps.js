@@ -19,58 +19,42 @@ When(
 Then(
   /^I should see the category dropdown now matches "(All|Titles|TV Episodes)"$/,
   async (category) => {
-    // This is a destructuring asignment
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
     const { categoryDropdown } = NavBar.searchBar;
     await categoryDropdown.waitForDisplayed({
       timeout: 1000,
       timeoutMsg: "The Category dropdown was not displayed"
     });
     const text = await categoryDropdown.getText();
-    // Assertions docs: https://jestjs.io/docs/using-matchers
-    /**
-     * Why does this line doesn't use await?
-     * Answer: when selenium is consumed we send a HTTP request to the selenium API
-     *         this force the callback to go to the callback stack, forcing us to use async/await
-     * https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd
-     */
     expect(text).toMatch(category);
   }
 );
 
 /*---------------BATMAN----------------*/
-// Scenario: In Batman details I should validate that the movie genres are "Action", "Crime" & "Drama"
-// Given I am on the Home page
-// When I search on the navbar "Batman"
-// And In the search page I click on "Batman" Title
-// Then In "Batman" details page I should Validate that the movie genres are "Action", "Crime" & "Drama"
 
-When(/^on the navbar I search "(The Batman)"$/, async (movie) => {
+When(/^on the navbar I search "(([\w ]+))"$/, async (movie) => {
   //buscar batman y dar click en buscar
-  const searchInput = NavBar.searchBar.input;
-  const searchBtn = NavBar.searchBar.mag;
-
-  await searchInput.setValue(movie);
-  await searchBtn.click();
+  await NavBar.searchBar.searchTitle(movie);
 });
 
-When(/^In the search page I click on "(The Batman)" Title$/, async (movie) => {
+When(/^In the search page I click on "(([\w ]+))" Title$/, async (movie) => {
   const batmanLink = MovieList.rowHyperlink(movie);
 
   await batmanLink.click();
+
+  await browser.pause(3000);
 });
 
 Then(
-  /^I should verify that the Validate the IMDB Ranking of Batman is "(8.1)"$/,
+  /^I should verify that the Validate the IMDB Ranking of Batman is "([+-]?([0-9]*[.])?[0-9]+)"$/,
   async (rank) => {
-    const batmanLink = MovieInfoPage.RateValue;
+    const batmanLink = MovieList.rateValue();
     const text = await batmanLink.getText();
     expect(text).toMatch(rank);
   }
 );
 
 Then(
-  /^I should read that the Director is "(Matt Reeves)" & and than "(Robert Pattinson)" is 1 of the actors$/,
+  /^I should read that the Director is "(([\w ]+))" & and than "(([\w ]+))" is 1 of the actors$/,
   async (director, actor) => {
     //validar director
     const movieDirectors = MovieInfoPage.movieDirector;

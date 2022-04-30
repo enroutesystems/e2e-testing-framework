@@ -1,7 +1,4 @@
 class MovieActor {
-  // constructor() {
-  // this.parentLocator = parentLocator;
-  // }
 
   get actors() {
     return $(
@@ -14,7 +11,4 @@ class MovieActor {
   }
 }
 
-/**
- * Constructor requires parent locator
- */
 module.exports = new MovieActor();

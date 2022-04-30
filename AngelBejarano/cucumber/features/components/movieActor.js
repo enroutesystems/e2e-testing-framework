@@ -1,20 +1,12 @@
 class MovieActor {
-  // constructor() {
-  // this.parentLocator = parentLocator;
-  // }
-
-  get actors() {
-    return $(
-      ".ipc-sub-grid.ipc-sub-grid--page-span-2.ipc-sub-grid--wraps-at-above-l.ipc-shoveler__grid"
-    );
+  constructor() {
+    this.parentLocator = $(".ipc-sub-grid.ipc-sub-grid--page-span-2.ipc-sub-grid--wraps-at-above-l.ipc-shoveler__grid");
   }
 
-  findActor(name) {
-    return this.actors.$(`.sc-11eed019-9.gRPuwU`).$(`//a[text()='${name}']`);
+  async findActor(name) {
+    const objectActor = this.parentLocator.$(`.sc-11eed019-9.gRPuwU`).$(`//a[text()='${name}']`);
+    return await objectActor.getText();
   }
 }
 
-/**
- * Constructor requires parent locator
- */
 module.exports = new MovieActor();
