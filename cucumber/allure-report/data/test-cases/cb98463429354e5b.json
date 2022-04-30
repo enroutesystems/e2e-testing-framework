@@ -1,0 +1,94 @@
+{
+  "uid" : "cb98463429354e5b",
+  "name" : "Then check if the movie has the genre of \"Acción\"",
+  "fullName" : "Movie Details Page: Validate Genres.Then check if the movie has the genre of \"Acción\"",
+  "historyId" : "fcc593bef82072e81dcd90328a07579b",
+  "time" : {
+    "start" : 1651279346156,
+    "stop" : 1651279346199,
+    "duration" : 43
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the movie has the genre of \"Acción\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60eccf954dd4785c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286855,
+        "stop" : 1651279286907,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "a60f0e8a1b3ac385",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237432,
+        "stop" : 1651279237486,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "597410c0b6face74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148702,
+        "stop" : 1651279148754,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "2faeab42a042f9e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084123,
+        "stop" : 1651279084173,
+        "duration" : 50
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb98463429354e5b.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

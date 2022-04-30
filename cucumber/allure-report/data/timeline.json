@@ -1,0 +1,1879 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Then check if the movie has \"8,1\" stars",
+      "uid" : "cfe490839b3294a0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084059,
+        "stop" : 1651279084118,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "c14244108d85dcfb",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084261,
+        "stop" : 1651279084261,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has \"8,1\" stars",
+      "uid" : "1527cc23f484a837",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346091,
+        "stop" : 1651279346151,
+        "duration" : 60
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "34977ecfecba6fbf",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148701,
+        "stop" : 1651279148702,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "7024b8a1ebe7aee2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279345840,
+        "stop" : 1651279345841,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "880e5a617ec5e860",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279336736,
+        "stop" : 1651279340991,
+        "duration" : 4255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "4b1d23b52d421e4a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084264,
+        "stop" : 1651279084265,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "db586e0ca42c6d30",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237358,
+        "stop" : 1651279237358,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "2027a1310ab44812",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286641,
+        "stop" : 1651279286642,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "8762a775cee56b97",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279149088,
+        "stop" : 1651279149089,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "1c15879e37c36ed",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279138513,
+        "stop" : 1651279138514,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "d6ab3788ebaea0c7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279284139,
+        "stop" : 1651279286633,
+        "duration" : 2494
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I click play on trailer button",
+      "uid" : "295e3dae205b3264",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279239001,
+        "stop" : 1651279244179,
+        "duration" : 5178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "748057625ff3ccf4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279277443,
+        "stop" : 1651279277444,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "cb98463429354e5b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346156,
+        "stop" : 1651279346199,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "4c6c3d903d9fb7ba",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237354,
+        "stop" : 1651279237354,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "d49ba5b117a91011",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346090,
+        "stop" : 1651279346090,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "73722740c621b1c2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279143324,
+        "stop" : 1651279145814,
+        "duration" : 2490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "2aa937a37a9c7798",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279074664,
+        "stop" : 1651279078643,
+        "duration" : 3979
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "67f4a6d253371307",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237824,
+        "stop" : 1651279237825,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "3623fed1b8ef8832",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237113,
+        "stop" : 1651279237114,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "57b60b20b5138105",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084118,
+        "stop" : 1651279084119,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "e0b92dda24ee7eeb",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237429,
+        "stop" : 1651279237429,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "203f5b1377edabe2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279345849,
+        "stop" : 1651279345849,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then The trailer is playing",
+      "uid" : "c319ed4dc79ec81c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279090596,
+        "stop" : 1651279095680,
+        "duration" : 5084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "be1db154e52daf7f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286908,
+        "stop" : 1651279286946,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "882bd56c518a5169",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148754,
+        "stop" : 1651279148804,
+        "duration" : 50
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "f002bf8a363b8f56",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279336734,
+        "stop" : 1651279336736,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I play trailer in a new page",
+      "uid" : "dd529aae9917663c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084265,
+        "stop" : 1651279085436,
+        "duration" : 1171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then The trailer is playing",
+      "uid" : "a4d77b32bdc29bf1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279293274,
+        "stop" : 1651279298363,
+        "duration" : 5089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I play trailer in a new page",
+      "uid" : "aa931aef5fc434c8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237825,
+        "stop" : 1651279239001,
+        "duration" : 1176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "c5f5eb7847e7d8a7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286633,
+        "stop" : 1651279286633,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "80d13b6fb7f6fa21",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346288,
+        "stop" : 1651279346288,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "2faeab42a042f9e6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084123,
+        "stop" : 1651279084173,
+        "duration" : 50
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I play trailer in a new page",
+      "uid" : "ef56a28143b5997f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286991,
+        "stop" : 1651279288115,
+        "duration" : 1124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "2904573a182a0ae2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279138515,
+        "stop" : 1651279143324,
+        "duration" : 4809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "a84532971e220752",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279357932,
+        "stop" : 1651279357932,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "d7c4a7269d23873c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279160516,
+        "stop" : 1651279160516,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "aefbe0da08f0c03e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148417,
+        "stop" : 1651279148417,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "32a7f253531a04f0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346156,
+        "stop" : 1651279346156,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "47c45cdbf0f7cef5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148698,
+        "stop" : 1651279148699,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "6ee6c6dfef103f3a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346085,
+        "stop" : 1651279346085,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "2658fe1fadf6c4b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279228142,
+        "stop" : 1651279228144,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "3ea1a94013bc0d7f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279145814,
+        "stop" : 1651279148417,
+        "duration" : 2603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "42089c488e4b2c57",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286642,
+        "stop" : 1651279286738,
+        "duration" : 96
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Drama\"",
+      "uid" : "114edb6239c7a470",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1651279148804,
+        "stop" : 1651279149088,
+        "duration" : 284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "26f1ec0bc2083b3b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346284,
+        "stop" : 1651279346284,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "7ac6ae7acf8c2914",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237432,
+        "stop" : 1651279237432,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "8012a424af24b09c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148427,
+        "stop" : 1651279148600,
+        "duration" : 173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Drama\"",
+      "uid" : "c8e8021d0006bb25",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346244,
+        "stop" : 1651279346284,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "2f87a6d6dc6e6321",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279083617,
+        "stop" : 1651279084008,
+        "duration" : 391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Drama\"",
+      "uid" : "a61880db320a5c22",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084220,
+        "stop" : 1651279084261,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "ddfa80eec38f8f8e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237102,
+        "stop" : 1651279237102,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "edf233b1484c0672",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279281486,
+        "stop" : 1651279284139,
+        "duration" : 2653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "bca77ca24da90407",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286990,
+        "stop" : 1651279286990,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "254c6607f8e6cb88",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237486,
+        "stop" : 1651279237527,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has \"8,1\" stars",
+      "uid" : "63fc4a39f2d15964",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237358,
+        "stop" : 1651279237429,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "3ad6138181b32bf0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286851,
+        "stop" : 1651279286851,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "aebc227be0fbb8d0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346151,
+        "stop" : 1651279346151,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "80368656037dec4f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279234661,
+        "stop" : 1651279237102,
+        "duration" : 2441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "597410c0b6face74",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148702,
+        "stop" : 1651279148754,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "4fa2ece9a120a819",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286986,
+        "stop" : 1651279286986,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "5f1b7d51500d6a7c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279340991,
+        "stop" : 1651279343395,
+        "duration" : 2404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "9b7851b094cae47f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286738,
+        "stop" : 1651279286796,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "273afa251aa35db9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148426,
+        "stop" : 1651279148427,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "272fb2cfcbe0eac0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148600,
+        "stop" : 1651279148642,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "dfde90f4226152cf",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286796,
+        "stop" : 1651279286796,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "e0cde52f87bd85b2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279149094,
+        "stop" : 1651279149094,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "b7a2e8a553cabab1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237308,
+        "stop" : 1651279237354,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Drama\"",
+      "uid" : "5d25160e867702f7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1651279237527,
+        "stop" : 1651279237821,
+        "duration" : 294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I click play on trailer button",
+      "uid" : "1fab654bf521a776",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279150285,
+        "stop" : 1651279155430,
+        "duration" : 5145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "9a6206a7863eb504",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084059,
+        "stop" : 1651279084059,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "478c83f931c62215",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279083604,
+        "stop" : 1651279083605,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "9166aea07c7ce4de",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084055,
+        "stop" : 1651279084055,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I click play on trailer button",
+      "uid" : "8b9c0bd547f3f2dc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279347671,
+        "stop" : 1651279352842,
+        "duration" : 5171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "35eab1f5aa34727b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279277444,
+        "stop" : 1651279281486,
+        "duration" : 4042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "56b2c45ee4c36997",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279083617,
+        "stop" : 1651279083617,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Drama\"",
+      "uid" : "33225c72796fc457",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286946,
+        "stop" : 1651279286986,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then The trailer is playing",
+      "uid" : "30b37edbcd9d2758",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279155430,
+        "stop" : 1651279160516,
+        "duration" : 5086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then The trailer is playing",
+      "uid" : "50b9641f4cac597b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279244179,
+        "stop" : 1651279249277,
+        "duration" : 5098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "fd96e2bdc4b3a439",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148642,
+        "stop" : 1651279148642,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "5378a4ddc1af8ed0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279095680,
+        "stop" : 1651279095680,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "14af02d99240c507",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279232056,
+        "stop" : 1651279234661,
+        "duration" : 2605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "5308202718df33ce",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346021,
+        "stop" : 1651279346084,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "e16d11f71b3d820b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279081237,
+        "stop" : 1651279083604,
+        "duration" : 2367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I click play on trailer button",
+      "uid" : "b09f8f799c18aaca",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279288115,
+        "stop" : 1651279293274,
+        "duration" : 5159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "cb7929df8f5dc36b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084173,
+        "stop" : 1651279084220,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "63e8d5be30ef5e72",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084123,
+        "stop" : 1651279084123,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I play trailer in a new page",
+      "uid" : "8b367c52fd1f94d2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279149094,
+        "stop" : 1651279150285,
+        "duration" : 1191
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has \"8,1\" stars",
+      "uid" : "d453527dba6e2ce6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286800,
+        "stop" : 1651279286851,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "b928fa7622889884",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237114,
+        "stop" : 1651279237308,
+        "duration" : 194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "aa859557be3ac5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346199,
+        "stop" : 1651279346244,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "a60f0e8a1b3ac385",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237432,
+        "stop" : 1651279237486,
+        "duration" : 54
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then The trailer is playing",
+      "uid" : "2a25c010dedc6ed2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279352842,
+        "stop" : 1651279357932,
+        "duration" : 5090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "3f9d9873cd930c6b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279078643,
+        "stop" : 1651279081237,
+        "duration" : 2594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I click play on trailer button",
+      "uid" : "a3992af3406e4661",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279085436,
+        "stop" : 1651279090596,
+        "duration" : 5160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "4b5070d430520605",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279298363,
+        "stop" : 1651279298363,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "8e141873a78f32e3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084008,
+        "stop" : 1651279084055,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "be0a85e58efbcb7c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237821,
+        "stop" : 1651279237821,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "7f221eb8d755cbf2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279249278,
+        "stop" : 1651279249278,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "d2c0e64659e36449",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279345849,
+        "stop" : 1651279346021,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "1b205197557ce249",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286799,
+        "stop" : 1651279286800,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "241453f2dfce0bc7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148646,
+        "stop" : 1651279148646,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "bd4af2ade1fc106",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286855,
+        "stop" : 1651279286855,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "1d0470513a9c283f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279074663,
+        "stop" : 1651279074664,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "d11528f23e0aa3c4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279228144,
+        "stop" : 1651279232056,
+        "duration" : 3912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "dabd8847dc39e4fa",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279343395,
+        "stop" : 1651279345840,
+        "duration" : 2445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "60eccf954dd4785c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286855,
+        "stop" : 1651279286907,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I play trailer in a new page",
+      "uid" : "4b2c5a71d490f763",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346288,
+        "stop" : 1651279347671,
+        "duration" : 1383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has \"8,1\" stars",
+      "uid" : "d0029baf1dbded38",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148646,
+        "stop" : 1651279148698,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ]
+}

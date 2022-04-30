@@ -1,0 +1,94 @@
+{
+  "uid" : "880e5a617ec5e860",
+  "name" : "Given I am on the home page",
+  "fullName" : "Movie Details Page: Navigate and search the \"Batman Movie\".Given I am on the home page",
+  "historyId" : "3d621bc330fcced2e25634ebceb8609c",
+  "time" : {
+    "start" : 1651279336736,
+    "stop" : 1651279340991,
+    "duration" : 4255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "35eab1f5aa34727b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279277444,
+        "stop" : 1651279281486,
+        "duration" : 4042
+      }
+    }, {
+      "uid" : "d11528f23e0aa3c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279228144,
+        "stop" : 1651279232056,
+        "duration" : 3912
+      }
+    }, {
+      "uid" : "2904573a182a0ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279138515,
+        "stop" : 1651279143324,
+        "duration" : 4809
+      }
+    }, {
+      "uid" : "2aa937a37a9c7798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279074664,
+        "stop" : 1651279078643,
+        "duration" : 3979
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "880e5a617ec5e860.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

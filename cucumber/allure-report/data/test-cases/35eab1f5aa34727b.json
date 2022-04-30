@@ -1,0 +1,60 @@
+{
+  "uid" : "35eab1f5aa34727b",
+  "name" : "Given I am on the home page",
+  "fullName" : "Movie Details Page: Navigate and search the \"Batman Movie\".Given I am on the home page",
+  "historyId" : "3d621bc330fcced2e25634ebceb8609c",
+  "time" : {
+    "start" : 1651279277444,
+    "stop" : 1651279281486,
+    "duration" : 4042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Navigate and search the \"Batman Movie\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35eab1f5aa34727b.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

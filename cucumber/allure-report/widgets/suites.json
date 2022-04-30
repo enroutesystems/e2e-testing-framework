@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "73bbf3d1d502724cd3da807775ad8d89",
+    "name" : "Movie Details Page: Navigate and search the \"Batman Movie\"",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "cb061c1a3df18e7b66c15d3b16f66197",
+    "name" : "Movie Details Page: Validate Genres",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c731a63bb078c2c8127fc9ff3a55a2bc",
+    "name" : "Movie Details Page: check that the player \"Status\" is \"playing\"",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+    "name" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "44b8040928e06c81142c78ca4a549f0e",
+    "name" : "Movie Details Page: Validate the IMDB Ranking is 8,1 Stars",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

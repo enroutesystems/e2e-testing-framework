@@ -1,0 +1,314 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Movie Details Page: Navigate and search the \"Batman Movie\"",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "880e5a617ec5e860",
+      "parentUid" : "73bbf3d1d502724cd3da807775ad8d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279336736,
+        "stop" : 1651279340991,
+        "duration" : 4255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "When on the navbar I search movie \"The Batman\"",
+      "uid" : "5f1b7d51500d6a7c",
+      "parentUid" : "73bbf3d1d502724cd3da807775ad8d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279340991,
+        "stop" : 1651279343395,
+        "duration" : 2404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I select the movie",
+      "uid" : "dabd8847dc39e4fa",
+      "parentUid" : "73bbf3d1d502724cd3da807775ad8d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279343395,
+        "stop" : 1651279345840,
+        "duration" : 2445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "7024b8a1ebe7aee2",
+      "parentUid" : "73bbf3d1d502724cd3da807775ad8d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279345840,
+        "stop" : 1651279345841,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "73bbf3d1d502724cd3da807775ad8d89"
+  }, {
+    "name" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor.",
+    "children" : [ {
+      "name" : "Then check if the director is \"Matt Reeves\"",
+      "uid" : "d2c0e64659e36449",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279345849,
+        "stop" : 1651279346021,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the actor is \"Robert Pattinson\"",
+      "uid" : "5308202718df33ce",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346021,
+        "stop" : 1651279346084,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "6ee6c6dfef103f3a",
+      "parentUid" : "af0c15b8255e1a9c8ddff5cc6be34844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346085,
+        "stop" : 1651279346085,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "af0c15b8255e1a9c8ddff5cc6be34844"
+  }, {
+    "name" : "Movie Details Page: Validate the IMDB Ranking is 8,1 Stars",
+    "children" : [ {
+      "name" : "Then check if the movie has \"8,1\" stars",
+      "uid" : "1527cc23f484a837",
+      "parentUid" : "44b8040928e06c81142c78ca4a549f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346091,
+        "stop" : 1651279346151,
+        "duration" : 60
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "aebc227be0fbb8d0",
+      "parentUid" : "44b8040928e06c81142c78ca4a549f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346151,
+        "stop" : 1651279346151,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "44b8040928e06c81142c78ca4a549f0e"
+  }, {
+    "name" : "Movie Details Page: Validate Genres",
+    "children" : [ {
+      "name" : "Then check if the movie has the genre of \"Acción\"",
+      "uid" : "cb98463429354e5b",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346156,
+        "stop" : 1651279346199,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Crimen\"",
+      "uid" : "aa859557be3ac5",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346199,
+        "stop" : 1651279346244,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then check if the movie has the genre of \"Drama\"",
+      "uid" : "c8e8021d0006bb25",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346244,
+        "stop" : 1651279346284,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "26f1ec0bc2083b3b",
+      "parentUid" : "cb061c1a3df18e7b66c15d3b16f66197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346284,
+        "stop" : 1651279346284,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "cb061c1a3df18e7b66c15d3b16f66197"
+  }, {
+    "name" : "Movie Details Page: check that the player \"Status\" is \"playing\"",
+    "children" : [ {
+      "name" : "Then I play trailer in a new page",
+      "uid" : "4b2c5a71d490f763",
+      "parentUid" : "c731a63bb078c2c8127fc9ff3a55a2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346288,
+        "stop" : 1651279347671,
+        "duration" : 1383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then I click play on trailer button",
+      "uid" : "8b9c0bd547f3f2dc",
+      "parentUid" : "c731a63bb078c2c8127fc9ff3a55a2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279347671,
+        "stop" : 1651279352842,
+        "duration" : 5171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "Then The trailer is playing",
+      "uid" : "2a25c010dedc6ed2",
+      "parentUid" : "c731a63bb078c2c8127fc9ff3a55a2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279352842,
+        "stop" : 1651279357932,
+        "duration" : 5090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "",
+      "uid" : "a84532971e220752",
+      "parentUid" : "c731a63bb078c2c8127fc9ff3a55a2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279357932,
+        "stop" : 1651279357932,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "c731a63bb078c2c8127fc9ff3a55a2bc"
+  } ]
+}

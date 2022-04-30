@@ -1,0 +1,94 @@
+{
+  "uid" : "2a25c010dedc6ed2",
+  "name" : "Then The trailer is playing",
+  "fullName" : "Movie Details Page: check that the player \"Status\" is \"playing\".Then The trailer is playing",
+  "historyId" : "48d2564715c3dd72aa60a33cddca6ce2",
+  "time" : {
+    "start" : 1651279352842,
+    "stop" : 1651279357932,
+    "duration" : 5090
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then The trailer is playing"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a4d77b32bdc29bf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279293274,
+        "stop" : 1651279298363,
+        "duration" : 5089
+      }
+    }, {
+      "uid" : "50b9641f4cac597b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279244179,
+        "stop" : 1651279249277,
+        "duration" : 5098
+      }
+    }, {
+      "uid" : "30b37edbcd9d2758",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279155430,
+        "stop" : 1651279160516,
+        "duration" : 5086
+      }
+    }, {
+      "uid" : "c319ed4dc79ec81c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279090596,
+        "stop" : 1651279095680,
+        "duration" : 5084
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a25c010dedc6ed2.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

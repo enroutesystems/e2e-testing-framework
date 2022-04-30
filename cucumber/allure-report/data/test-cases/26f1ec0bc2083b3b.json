@@ -1,0 +1,134 @@
+{
+  "uid" : "26f1ec0bc2083b3b",
+  "name" : "",
+  "fullName" : "Movie Details Page: Validate Genres.",
+  "historyId" : "171418a05a024cb259b1fc2cdb9127a5",
+  "time" : {
+    "start" : 1651279346284,
+    "stop" : 1651279346284,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Validate Genres"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "32a7f253531a04f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279346156,
+        "stop" : 1651279346156,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4fa2ece9a120a819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286986,
+        "stop" : 1651279286986,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd4af2ade1fc106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279286855,
+        "stop" : 1651279286855,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be0a85e58efbcb7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237821,
+        "stop" : 1651279237821,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ac6ae7acf8c2914",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279237432,
+        "stop" : 1651279237432,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8762a775cee56b97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279149088,
+        "stop" : 1651279149089,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "34977ecfecba6fbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279148701,
+        "stop" : 1651279148702,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c14244108d85dcfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084261,
+        "stop" : 1651279084261,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "63e8d5be30ef5e72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279084123,
+        "stop" : 1651279084123,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26f1ec0bc2083b3b.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

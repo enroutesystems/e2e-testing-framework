@@ -10,7 +10,7 @@ class MovieList {
     async goToMovie() {
         const anchor = this.rowHyperlink;
         await anchor.waitForClickable({
-            timeoutMsg: 5000,
+            timeoutMsg: 1000,
             timeoutMsg: `The table was not clickable`
         });
         await anchor.click();
