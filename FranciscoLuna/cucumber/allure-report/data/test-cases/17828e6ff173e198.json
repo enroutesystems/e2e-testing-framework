@@ -1,0 +1,70 @@
+{
+  "uid" : "17828e6ff173e198",
+  "name" : "Then I should see genre \"Action\"",
+  "fullName" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\".Then I should see genre \"Action\"",
+  "historyId" : "d5447b665ce683c1fe7cf8f4c349254e",
+  "time" : {
+    "start" : 1651263656203,
+    "stop" : 1651263659370,
+    "duration" : 3167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see genre \"Action\""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3720b78a71571c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263003106,
+        "stop" : 1651263006677,
+        "duration" : 3571
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17828e6ff173e198.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

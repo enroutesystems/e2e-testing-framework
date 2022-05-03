@@ -1,0 +1,86 @@
+{
+  "uid" : "3d85307c2b937e08",
+  "name" : "",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\".",
+  "historyId" : "c059b25bb358af792bc75c52985fd9d3",
+  "time" : {
+    "start" : 1651263636874,
+    "stop" : 1651263636875,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83cd2de2c1e457e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263621905,
+        "stop" : 1651263621907,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2babcd7ac797feda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262976169,
+        "stop" : 1651262976170,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f2320df8ba86869",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262961066,
+        "stop" : 1651262961069,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d85307c2b937e08.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

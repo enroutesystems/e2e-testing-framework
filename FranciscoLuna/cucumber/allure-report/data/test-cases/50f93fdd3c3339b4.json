@@ -1,0 +1,102 @@
+{
+  "uid" : "50f93fdd3c3339b4",
+  "name" : "Given I am on the home page",
+  "fullName" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\".Given I am on the home page",
+  "historyId" : "bab6a53a4b9be8fcd74dec43f10b1a61",
+  "time" : {
+    "start" : 1651263669413,
+    "stop" : 1651263672717,
+    "duration" : 3304
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41ee453e55f2d397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263659376,
+        "stop" : 1651263662778,
+        "duration" : 3402
+      }
+    }, {
+      "uid" : "e2da99dbb44948c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263648098,
+        "stop" : 1651263651290,
+        "duration" : 3192
+      }
+    }, {
+      "uid" : "9b5e9e94ab3768d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263021357,
+        "stop" : 1651263025079,
+        "duration" : 3722
+      }
+    }, {
+      "uid" : "4e5fc5e0a46bfac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263006683,
+        "stop" : 1651263010723,
+        "duration" : 4040
+      }
+    }, {
+      "uid" : "7e4a914e2ee456d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262991785,
+        "stop" : 1651262995063,
+        "duration" : 3278
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50f93fdd3c3339b4.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}
