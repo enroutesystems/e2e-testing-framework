@@ -1,0 +1,151 @@
+[ {
+  "uid" : "38ebec72bbcf4a73",
+  "name" : "When on the result page I select \"The Batman\"",
+  "time" : {
+    "start" : 1651266108493,
+    "stop" : 1651266111959,
+    "duration" : 3466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cf465555bb22115",
+  "name" : "And on the navbar I search \"The Batman\"",
+  "time" : {
+    "start" : 1651266106378,
+    "stop" : 1651266108492,
+    "duration" : 2114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49be0a34fca5e6a5",
+  "name" : "When on the result page I select \"The Batman\"",
+  "time" : {
+    "start" : 1651266100094,
+    "stop" : 1651266104004,
+    "duration" : 3910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bcd2b3c180c0566",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651266112497,
+    "stop" : 1651266114897,
+    "duration" : 2400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2363090a5da8b6d",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651266094553,
+    "stop" : 1651266099149,
+    "duration" : 4596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4676e72d2f2d5b4",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651266104296,
+    "stop" : 1651266106378,
+    "duration" : 2082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8dd460aed75d4ff",
+  "name" : "",
+  "time" : {
+    "start" : 1651266104286,
+    "stop" : 1651266104286,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f0c2323a0bdd102",
+  "name" : "",
+  "time" : {
+    "start" : 1651266112491,
+    "stop" : 1651266112492,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d52b1ffcbb144792",
+  "name" : "And on the navbar I search \"The Batman\"",
+  "time" : {
+    "start" : 1651266099149,
+    "stop" : 1651266100094,
+    "duration" : 945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbaf61dab10b7a7d",
+  "name" : "Then I should see that the movie genres are \"Action\" \"Crime\" & \"Drama\"",
+  "time" : {
+    "start" : 1651266120264,
+    "stop" : 1651266120685,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52dcb75f703a178",
+  "name" : "",
+  "time" : {
+    "start" : 1651266120685,
+    "stop" : 1651266120685,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bdd126f71688fc9",
+  "name" : "Then I should see that the Director is \"Matt Reeves\" & the actor is \"Robert Pattinson\"",
+  "time" : {
+    "start" : 1651266104004,
+    "stop" : 1651266104286,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92f57850db737e91",
+  "name" : "When on the result page I select \"The Batman\"",
+  "time" : {
+    "start" : 1651266116952,
+    "stop" : 1651266120264,
+    "duration" : 3312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf4bd17154d9f3f",
+  "name" : "Then I should see that the IMDB Ranking is \"8.1\" Stars",
+  "time" : {
+    "start" : 1651266111959,
+    "stop" : 1651266112491,
+    "duration" : 532
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "67aacb5e04565643",
+  "name" : "And on the navbar I search \"The Batman\"",
+  "time" : {
+    "start" : 1651266114897,
+    "stop" : 1651266116952,
+    "duration" : 2055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

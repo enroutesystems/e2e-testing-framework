@@ -1,0 +1,86 @@
+{
+  "uid" : "f4676e72d2f2d5b4",
+  "name" : "Given I am on the home page",
+  "fullName" : "Movie Details Page: Test2.Given I am on the home page",
+  "historyId" : "615f292037be128789aaeb946b793c9d",
+  "time" : {
+    "start" : 1651266104296,
+    "stop" : 1651266106378,
+    "duration" : 2082
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4c413faafaa239d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668409,
+        "stop" : 1651265670423,
+        "duration" : 2014
+      }
+    }, {
+      "uid" : "6ab8da602e4a512b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265441078,
+        "stop" : 1651265444404,
+        "duration" : 3326
+      }
+    }, {
+      "uid" : "a9fb50b5e762164a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264913268,
+        "stop" : 1651264915418,
+        "duration" : 2150
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4676e72d2f2d5b4.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

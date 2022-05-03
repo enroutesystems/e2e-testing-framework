@@ -1,0 +1,86 @@
+{
+  "uid" : "d2363090a5da8b6d",
+  "name" : "Given I am on the home page",
+  "fullName" : "Movie Details Page: Test.Given I am on the home page",
+  "historyId" : "8327c8f3fdede241eca023fac77cb9b2",
+  "time" : {
+    "start" : 1651266094553,
+    "stop" : 1651266099149,
+    "duration" : 4596
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd187088afd3281b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265659520,
+        "stop" : 1651265663762,
+        "duration" : 4242
+      }
+    }, {
+      "uid" : "fae6cb16df94df66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265431182,
+        "stop" : 1651265435964,
+        "duration" : 4782
+      }
+    }, {
+      "uid" : "4202d0737cdc6f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264902219,
+        "stop" : 1651264906411,
+        "duration" : 4192
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2363090a5da8b6d.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

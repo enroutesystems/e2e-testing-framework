@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651265441077' stop='1651265449698'>
+    <name>Movie Details Page: Test2</name>
+    <title>Movie Details Page: Test2</title>
+    <test-cases>
+        <test-case start='1651265441077' status='passed' stop='1651265441078'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651265441078' status='passed' stop='1651265444404'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='13e97469-2c41-43bd-875b-84e196de9500-attachment.png' type='image/png' size='636490'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651265444404' status='passed' stop='1651265446140'>
+            <name>And on the navbar I search "The Batman"</name>
+            <title>And on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='224bd2a6-4246-4904-ba88-55e7fc694b3e-attachment.png' type='image/png' size='517432'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651265446141' status='passed' stop='1651265449502'>
+            <name>When on the result page I select "The Batman"</name>
+            <title>When on the result page I select "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c41e51d6-d211-4a72-be68-c0ca2f2e24f8-attachment.png' type='image/png' size='233424'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651265449502' status='passed' stop='1651265449698'>
+            <name>Then I should see that the IMDB Ranking is "8.1" Stars</name>
+            <title>Then I should see that the IMDB Ranking is "8.1" Stars</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6e4183ca-1b7f-4b40-bbe0-a4c3829158a4-attachment.png' type='image/png' size='230537'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651265449698' status='passed' stop='1651265449698'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

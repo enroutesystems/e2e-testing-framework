@@ -1,0 +1,118 @@
+{
+  "uid" : "d8dd460aed75d4ff",
+  "name" : "",
+  "fullName" : "Movie Details Page: Test.",
+  "historyId" : "52068919be7138b9073931e19b69982f",
+  "time" : {
+    "start" : 1651266104286,
+    "stop" : 1651266104286,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "14a645e6e13afb26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651266094550,
+        "stop" : 1651266094552,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a5f4c02f0994a270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265668399,
+        "stop" : 1651265668400,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c3973b05dc08b02c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265659518,
+        "stop" : 1651265659520,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e492ab0a2f08a5c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265441065,
+        "stop" : 1651265441066,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "af47e57acdd9b448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651265431180,
+        "stop" : 1651265431182,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ac4649a0265dcdb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264913258,
+        "stop" : 1651264913259,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6802d90af2b7f9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651264902217,
+        "stop" : 1651264902219,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8dd460aed75d4ff.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
