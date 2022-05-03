@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651286147407' stop='1651286166399'>
+    <name>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</name>
+    <title>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</title>
+    <test-cases>
+        <test-case start='1651286147407' status='passed' stop='1651286147407'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651286147407' status='passed' stop='1651286149825'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651286149825' status='passed' stop='1651286151269'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651286151269' status='passed' stop='1651286156026'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651286156026' status='broken' stop='1651286166399'>
+            <name>Then I should Validate that the movie genres is "Action"</name>
+            <title>Then I should Validate that the movie genres is "Action"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cdb5c6f9-ddc6-4d26-9784-77ac7787e053-attachment.png' type='image/png' size='1076005'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call $ on element with selector ".ipc-chip-list.sc-16ede01-4.bMBIRz" because element wasn't found</message>
+                <stack-trace>Error: Can't call $ on element with selector ".ipc-chip-list.sc-16ede01-4.bMBIRz" because element wasn't found
+                    at async World.&lt;anonymous> (/Users/enrouterockstars/Documents/Enroute/Testing/e2e-testing-framework/Luis Roberto Peña/cucumber/features/step-definitions/steps.js:81:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651286166399' status='passed' stop='1651286166399'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
