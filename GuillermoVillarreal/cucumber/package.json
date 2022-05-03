@@ -13,9 +13,11 @@
     },
     "scripts": {
         "wdio": "wdio run wdio.conf.js",
-        "report" : "allure serve ./reports/allure"
+        "tag-test": "wdio run wdio.conf.js -- --cucumberOpts.tagExpression='@SmokeTest'",
+        "report": "allure serve ./reports/allure"
     },
     "dependencies": {
-        "wdio": "^6.0.1"
+        "wdio": "^6.0.1",
+        "@wdio/allure-reporter": "^5.0.0"
     }
 }

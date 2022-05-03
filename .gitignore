@@ -1,6 +1,0 @@
-.vscode
-*OmarPelcastre/cucumber/node_modules
-*/node_modules/*
-*/package-lock.json
-*/yarn.lock
-*OmarPelcastre/cucumber/reports

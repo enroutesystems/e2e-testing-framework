@@ -1,0 +1,177 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651269161638' stop='1651269174116'>
+    <name>Movie Details Page: Validate the Director and main Star</name>
+    <title>Movie Details Page: Validate the Director and main Star</title>
+    <test-cases>
+        <test-case start='1651269161640' status='passed' stop='1651269161643'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269161644' status='passed' stop='1651269168826'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651269161654' status='passed' stop='1651269168823'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='20ea84a7-4254-4880-982a-b205b5820bba-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269168827' status='passed' stop='1651269173805'>
+            <name>And on the navbar I search "The Batman"</name>
+            <title>And on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651269168832' status='passed' stop='1651269169079'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='98b3b2f2-2915-4cc1-b405-2c98f5816be5-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='1e65f5a6-3fcc-4ee9-91fd-de0835803b93-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651269169096' status='passed' stop='1651269169735'>
+                    <name>POST /session/:sessionId/element/de22ad92-26a9-4395-ac56-c9d3b0f27160/value</name>
+                    <title>POST /session/:sessionId/element/de22ad92-26a9-4395-ac56-c9d3b0f27160/value</title>
+                    <attachments>
+                        <attachment title='Request' source='40206776-9163-4f1d-be5f-761484d40117-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651269169737' status='passed' stop='1651269170001'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a3fe182b-c21f-42ac-b158-786990ed9439-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='509f4224-c3a6-47a5-b9ea-89bba7ec29cf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651269170007' status='passed' stop='1651269173802'>
+                    <name>POST /session/:sessionId/element/a233a6d0-d11b-4792-b889-72d04043181f/click</name>
+                    <title>POST /session/:sessionId/element/a233a6d0-d11b-4792-b889-72d04043181f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269173806' status='broken' stop='1651269174113'>
+            <name>And on the results page select "The Batman"</name>
+            <title>And on the results page select "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651269173809' status='broken' stop='1651269174113'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fb017527-1ff2-471c-bdc4-3de6d53821a8-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651269173935' status='passed' stop='1651269174112'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='c921933e-a0b8-4d48-ab3e-aa5421e66529-attachment.png' type='image/png' size='271213'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: invalid selector: An invalid or illegal selector was specified</message>
+                <stack-trace>invalid selector: invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=101.0.4951.41)
+                    at getErrorFromResponseBody (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async World.&lt;anonymous> (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\features\step-definitions\steps.js:29:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651269174113' status='undefined'>
+            <name>And on the details page I verify the Director as "Matt Reeves"</name>
+            <title>And on the details page I verify the Director as "Matt Reeves"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269174113' status='undefined'>
+            <name>Then on details page I verify the main star as "Robert Pattinson"</name>
+            <title>Then on details page I verify the main star as "Robert Pattinson"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269174114' status='passed' stop='1651269174115'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
