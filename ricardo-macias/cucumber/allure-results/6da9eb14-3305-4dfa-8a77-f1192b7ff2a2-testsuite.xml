@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651269677569' stop='1651269709581'>
+    <name>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</name>
+    <title>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</title>
+    <test-cases>
+        <test-case start='1651269677572' status='passed' stop='1651269677578'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269677579' status='passed' stop='1651269690063'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269690064' status='passed' stop='1651269696007'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269696008' status='passed' stop='1651269709572'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269709573' status='broken' stop='1651269709575'>
+            <name>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors</name>
+            <title>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\features\movies-details.feature):1:1
+                	at Scenario(In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors):9:3
+                	at Step(I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651269709576' status='passed' stop='1651269709579'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

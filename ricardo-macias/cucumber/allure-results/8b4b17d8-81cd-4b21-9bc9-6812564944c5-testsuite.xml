@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651267916292' stop='1651267916540'>
+    <name>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</name>
+    <title>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</title>
+    <test-cases>
+        <test-case start='1651267916294' status='passed' stop='1651267916300'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-92.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651267916301' status='broken' stop='1651267916528'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-92.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: Browsing context has been discarded</message>
+                <stack-trace>no such window: Browsing context has been discarded
+                    at getErrorFromResponseBody (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.wrapCommandFn (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async World.&lt;anonymous> (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\features\step-definitions\steps.js:12:51)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651267916528' status='undefined'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-92.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651267916530' status='undefined'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-92.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651267916533' status='broken' stop='1651267916535'>
+            <name>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors</name>
+            <title>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-92.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\features\movies-details.feature):1:1
+                	at Scenario(In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors):9:3
+                	at Step(I should read that the Director is "Matt Reeves" &amp; and than "Robert PattinsonXX" is 1 of the actors):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651267916535' status='passed' stop='1651267916538'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-92.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

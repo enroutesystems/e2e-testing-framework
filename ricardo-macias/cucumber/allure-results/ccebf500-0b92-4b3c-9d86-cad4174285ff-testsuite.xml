@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651269497337' stop='1651269543779'>
+    <name>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</name>
+    <title>Movie Details Page: In Batman details I should validate that the movie genres are "Action", "Crime" &amp; "Drama"</title>
+    <test-cases>
+        <test-case start='1651269497346' status='passed' stop='1651269497374'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269497375' status='passed' stop='1651269504633'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269504633' status='passed' stop='1651269513530'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269513530' status='passed' stop='1651269522173'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269522173' status='broken' stop='1651269543774'>
+            <name>Then I should Validate that the movie genres is "Action"</name>
+            <title>Then I should Validate that the movie genres is "Action"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a2b05a7b-f46c-49be-b9c5-0818bfb155d3-attachment.png' type='image/png' size='3195116'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call getText on element with selector "//a[text()='Action']" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//a[text()='Action']" because element wasn't found
+                    at implicitWait (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async World.&lt;anonymous> (C:\Users\Ricky\Desktop\ftrs\e2e-testing-framework\ricardo-macias\cucumber\features\step-definitions\steps.js:110:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651269543775' status='passed' stop='1651269543779'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

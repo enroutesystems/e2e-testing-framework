@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651266770501' stop='1651266777549'>
+    <name>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</name>
+    <title>Movie Details Page: In Batman details I should validate that the Director is Matt Reeves &amp; and than Robert Pattison is 1 of the actors</title>
+    <test-cases>
+        <test-case start='1651266770502' status='passed' stop='1651266770502'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266770502' status='passed' stop='1651266772240'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266772240' status='passed' stop='1651266772897'>
+            <name>When on the navbar I search "The Batman"</name>
+            <title>When on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266772898' status='broken' stop='1651266777546'>
+            <name>And In the search page I click on "The Batman" Title</name>
+            <title>And In the search page I click on "The Batman" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8c558a17-77a2-4192-953b-b3070a92c1c4-attachment.png' type='image/png' size='2693438'/>
+            </attachments>
+            <failure>
+                <message>Error: We either navigate top level or have old version of the navigated frame</message>
+                <stack-trace>Error: We either navigate top level or have old version of the navigated frame
+                    at assert (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\assert.js:26:15)
+                    at FrameManager._onFrameNavigated (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:256:32)
+                    at C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:65:18
+                    at C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:62
+                    at Array.map (&lt;anonymous>)
+                    at Object.emit (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:43)
+                    at CDPSession.emit (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+                    at CDPSession._onMessage (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:249:18)
+                    at Connection._onMessage (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:117:25)
+                    at WebSocket.&lt;anonymous> (C:\Users\Xame\Desktop\Enroute\QA\practica1\e2e-testing-framework\cucumber\node_modules\puppeteer-core\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651266777546' status='undefined'>
+            <name>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert Pattinson" is 1 of the actors</name>
+            <title>Then I should read that the Director is "Matt Reeves" &amp; and than "Robert Pattinson" is 1 of the actors</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651266777547' status='passed' stop='1651266777548'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
