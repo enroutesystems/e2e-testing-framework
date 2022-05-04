@@ -1,0 +1,163 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651269174131' stop='1651269181138'>
+    <name>Movie Details Page: Validate the IMDB Score</name>
+    <title>Movie Details Page: Validate the IMDB Score</title>
+    <test-cases>
+        <test-case start='1651269174131' status='passed' stop='1651269174132'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269174132' status='passed' stop='1651269176649'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651269174134' status='passed' stop='1651269176648'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='77c61cee-5c78-49fb-8d39-9916c7b397ba-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269176650' status='passed' stop='1651269180891'>
+            <name>And on the navbar I search "The Batman"</name>
+            <title>And on the navbar I search "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651269176651' status='passed' stop='1651269177291'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='55820bb8-f89c-4308-9aa5-46a546974e0a-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='d83152bc-54b8-4249-b67d-eb074700a002-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651269177296' status='passed' stop='1651269177699'>
+                    <name>POST /session/:sessionId/element/3ba38429-5ed4-411c-9a74-a77ad02389cc/value</name>
+                    <title>POST /session/:sessionId/element/3ba38429-5ed4-411c-9a74-a77ad02389cc/value</title>
+                    <attachments>
+                        <attachment title='Request' source='88379aa1-efc6-4f46-8c86-6cf032b97252-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651269177700' status='passed' stop='1651269178639'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='115c1597-4b5a-43a4-81fe-8791aed1dd26-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='b2c9b203-103e-4aa6-b7f8-fad4595640bf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651269178642' status='passed' stop='1651269180890'>
+                    <name>POST /session/:sessionId/element/13860257-61fd-408d-a33e-04290af98c95/click</name>
+                    <title>POST /session/:sessionId/element/13860257-61fd-408d-a33e-04290af98c95/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269180891' status='broken' stop='1651269181136'>
+            <name>And on the results page select "The Batman"</name>
+            <title>And on the results page select "The Batman"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651269180892' status='broken' stop='1651269181136'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cb0d8ac5-f487-4c9a-8822-6e5af953c648-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651269180946' status='passed' stop='1651269181135'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='8da683f4-fb54-4681-a3cb-7f30f77762e4-attachment.png' type='image/png' size='257867'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: invalid selector: An invalid or illegal selector was specified</message>
+                <stack-trace>invalid selector: invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=101.0.4951.41)
+                    at getErrorFromResponseBody (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async World.&lt;anonymous> (C:\Users\memow\OneDrive\Escritorio\Rockstars8G\e2e-testing-framework\GuillermoVillarreal\cucumber\features\step-definitions\steps.js:29:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651269181137' status='undefined'>
+            <name>Then on details page verify IMBD Score as "8.1"</name>
+            <title>Then on details page verify IMBD Score as "8.1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651269181137' status='passed' stop='1651269181138'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

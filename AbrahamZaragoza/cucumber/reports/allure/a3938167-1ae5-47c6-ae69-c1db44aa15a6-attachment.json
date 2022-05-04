@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[normalize-space() = \"All\"]\"}\n  (Session info: chrome=101.0.4951.41)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00E57413+2389011]\n\tOrdinal0 [0x00DE9F61+1941345]\n\tOrdinal0 [0x00CDC658+837208]\n\tOrdinal0 [0x00D091DD+1020381]\n\tOrdinal0 [0x00D0949B+1021083]\n\tOrdinal0 [0x00CFF9F1+981489]\n\tOrdinal0 [0x00D24194+1130900]\n\tOrdinal0 [0x00CFF974+981364]\n\tOrdinal0 [0x00D24364+1131364]\n\tOrdinal0 [0x00D34302+1196802]\n\tOrdinal0 [0x00D23F66+1130342]\n\tOrdinal0 [0x00CFE546+976198]\n\tOrdinal0 [0x00CFF456+980054]\n\tGetHandleVerifier [0x01009632+1727522]\n\tGetHandleVerifier [0x010BBA4D+2457661]\n\tGetHandleVerifier [0x00EEEB81+569713]\n\tGetHandleVerifier [0x00EEDD76+566118]\n\tOrdinal0 [0x00DF0B2B+1968939]\n\tOrdinal0 [0x00DF5988+1989000]\n\tOrdinal0 [0x00DF5A75+1989237]\n\tOrdinal0 [0x00DFECB1+2026673]\n\tBaseThreadInitThunk [0x7613FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x772B7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x772B7A4E+238]\n"
+}
