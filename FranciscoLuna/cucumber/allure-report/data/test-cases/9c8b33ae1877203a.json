@@ -1,0 +1,60 @@
+{
+  "uid" : "9c8b33ae1877203a",
+  "name" : "When on the navbar I search \"The Batman\"",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\".When on the navbar I search \"The Batman\"",
+  "historyId" : "2a1dbe6661d4066e9bd2e5c36930d4a",
+  "time" : {
+    "start" : 1651262967032,
+    "stop" : 1651262971821,
+    "duration" : 4789
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testMethod",
+    "value" : "When on the navbar I search \"The Batman\""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c8b33ae1877203a.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

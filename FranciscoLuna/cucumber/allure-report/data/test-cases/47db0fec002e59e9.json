@@ -1,0 +1,86 @@
+{
+  "uid" : "47db0fec002e59e9",
+  "name" : "",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\".",
+  "historyId" : "d12554960e69bef752ef6bc6c7a8902b",
+  "time" : {
+    "start" : 1651263648086,
+    "stop" : 1651263648087,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f3593f0c476b6a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263636888,
+        "stop" : 1651263636888,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7f99222327763cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262991772,
+        "stop" : 1651262991774,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a0fde8c7b219187d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262976191,
+        "stop" : 1651262976191,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47db0fec002e59e9.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

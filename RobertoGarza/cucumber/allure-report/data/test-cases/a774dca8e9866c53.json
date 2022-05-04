@@ -1,0 +1,62 @@
+{
+  "uid" : "a774dca8e9866c53",
+  "name" : "Then I should see the star \"Robert Pattinson\"",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\".Then I should see the star \"Robert Pattinson\"",
+  "historyId" : "8c491d917859b06e48629e25fa89cd59",
+  "time" : {
+    "start" : 1651262976064,
+    "stop" : 1651262976169,
+    "duration" : 105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see the star \"Robert Pattinson\""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see if director is Matt Reeves & and than Robert Pattison is 1 of the \"Stars\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a774dca8e9866c53.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

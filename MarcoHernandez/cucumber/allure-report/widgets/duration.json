@@ -1,0 +1,181 @@
+[ {
+  "uid" : "a0f0a86e14c87a48",
+  "name" : "",
+  "time" : {
+    "start" : 1651262976169,
+    "stop" : 1651262976170,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9796cf0e195f1e07",
+  "name" : "Then I should see genre \"Drama\"",
+  "time" : {
+    "start" : 1651263030010,
+    "stop" : 1651263034573,
+    "duration" : 4563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67fb95c42335003b",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651262976191,
+    "stop" : 1651262982416,
+    "duration" : 6225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf386c768d8a213",
+  "name" : "Then I should see genre \"Crime\"",
+  "time" : {
+    "start" : 1651263016692,
+    "stop" : 1651263021351,
+    "duration" : 4659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4fac61f56f5062",
+  "name" : "",
+  "time" : {
+    "start" : 1651262991772,
+    "stop" : 1651262991774,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2c4bdc46b103dec",
+  "name" : "When on the navbar I search \"The Batman\"",
+  "time" : {
+    "start" : 1651262967032,
+    "stop" : 1651262971821,
+    "duration" : 4789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a14441d5d554cbd3",
+  "name" : "Then I should see that the ranking is \"8.1\"",
+  "time" : {
+    "start" : 1651262987014,
+    "stop" : 1651262991772,
+    "duration" : 4758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fb9e4ff962bd788",
+  "name" : "Then on the page I select \"Batman\" movie",
+  "time" : {
+    "start" : 1651262986819,
+    "stop" : 1651262987014,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eded619fe6a679a1",
+  "name" : "When on the navbar I search \"The Batman\"",
+  "time" : {
+    "start" : 1651262982416,
+    "stop" : 1651262986819,
+    "duration" : 4403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "793a54bbfaea27c3",
+  "name" : "",
+  "time" : {
+    "start" : 1651263034573,
+    "stop" : 1651263034573,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a99974fca3b47f54",
+  "name" : "Then on the page I select \"The Batman\" movie",
+  "time" : {
+    "start" : 1651263029920,
+    "stop" : 1651263030010,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9b70562ca73890e",
+  "name" : "Then I should see the director \"Matt Reeves\"",
+  "time" : {
+    "start" : 1651262971950,
+    "stop" : 1651262976064,
+    "duration" : 4114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2add62d31ad66f6a",
+  "name" : "Then I should see genre \"Action\"",
+  "time" : {
+    "start" : 1651263003106,
+    "stop" : 1651263006677,
+    "duration" : 3571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b46808a3fcf3c80",
+  "name" : "Then on the page I select \"The Batman\" movie",
+  "time" : {
+    "start" : 1651262971821,
+    "stop" : 1651262971950,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caa3b37be04a4cd5",
+  "name" : "When on the navbar I search \"The Batman\"",
+  "time" : {
+    "start" : 1651263025079,
+    "stop" : 1651263029920,
+    "duration" : 4841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a774dca8e9866c53",
+  "name" : "Then I should see the star \"Robert Pattinson\"",
+  "time" : {
+    "start" : 1651262976064,
+    "stop" : 1651262976169,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9678749be2dabfed",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651263021357,
+    "stop" : 1651263025079,
+    "duration" : 3722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9de5df94c8272fe",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1651262961070,
+    "stop" : 1651262967032,
+    "duration" : 5962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,102 @@
+{
+  "uid" : "793a54bbfaea27c3",
+  "name" : "",
+  "fullName" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\".",
+  "historyId" : "134000307f38bcbbc0820aa84a1a5ad5",
+  "time" : {
+    "start" : 1651263034573,
+    "stop" : 1651263034573,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "615bff6615e9330e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263021356,
+        "stop" : 1651263021357,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1ccac1f4413f86dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263021351,
+        "stop" : 1651263021351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7c1705f35384ba8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263006682,
+        "stop" : 1651263006683,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c231b914653739d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263006677,
+        "stop" : 1651263006677,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "778f5ae8f0960d78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262991784,
+        "stop" : 1651262991785,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "793a54bbfaea27c3.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "7e6bc02f6b8e8aeb",
+  "name" : "",
+  "fullName" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\".",
+  "historyId" : "134000307f38bcbbc0820aa84a1a5ad5",
+  "time" : {
+    "start" : 1651263679683,
+    "stop" : 1651263679684,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: Validate that the movie genres are \"Action\", \"Crime\" & \"Drama\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54c1c6b4b2c6228b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263669412,
+        "stop" : 1651263669413,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "234e86424dffa27a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263669406,
+        "stop" : 1651263669407,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c06d3a910bfac944",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263659376,
+        "stop" : 1651263659376,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a48794cac4e005ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263659370,
+        "stop" : 1651263659370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab95df2afe669291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263648097,
+        "stop" : 1651263648098,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9aebf0234495365d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263034573,
+        "stop" : 1651263034573,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5be2360bce3fb6f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263021356,
+        "stop" : 1651263021357,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8a6bda9d8e6c680b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263021351,
+        "stop" : 1651263021351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bce4d78c53d44e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263006682,
+        "stop" : 1651263006683,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "aef36048dc36ef32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651263006677,
+        "stop" : 1651263006677,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c676af36b506a45f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651262991784,
+        "stop" : 1651262991785,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e6bc02f6b8e8aeb.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

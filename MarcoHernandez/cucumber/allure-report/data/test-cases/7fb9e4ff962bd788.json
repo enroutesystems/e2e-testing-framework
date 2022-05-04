@@ -1,0 +1,62 @@
+{
+  "uid" : "7fb9e4ff962bd788",
+  "name" : "Then on the page I select \"Batman\" movie",
+  "fullName" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\".Then on the page I select \"Batman\" movie",
+  "historyId" : "93e2badf01984e95db38956ff0e9d7f5",
+  "time" : {
+    "start" : 1651262986819,
+    "stop" : 1651262987014,
+    "duration" : 195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "testClass",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then on the page I select \"Batman\" movie"
+  }, {
+    "name" : "package",
+    "value" : "\"The Batman\" Movie Details Page: As a user, I should be able the see the ranking of the movie \"8.1\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fb9e4ff962bd788.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}
