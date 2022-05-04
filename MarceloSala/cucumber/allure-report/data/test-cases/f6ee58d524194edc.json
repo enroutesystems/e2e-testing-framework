@@ -1,0 +1,110 @@
+{
+  "uid" : "f6ee58d524194edc",
+  "name" : "Then The trailer is playing",
+  "fullName" : "Movie Details Page: check that the player \"Status\" is \"playing\".Then The trailer is playing",
+  "historyId" : "48d2564715c3dd72aa60a33cddca6ce2",
+  "time" : {
+    "start" : 1651279959782,
+    "stop" : 1651279964851,
+    "duration" : 5069
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "testMethod",
+    "value" : "Then The trailer is playing"
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: check that the player \"Status\" is \"playing\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29001ac00d598862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279881194,
+        "stop" : 1651279886309,
+        "duration" : 5115
+      }
+    }, {
+      "uid" : "ad9a3085539ee58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279352842,
+        "stop" : 1651279357932,
+        "duration" : 5090
+      }
+    }, {
+      "uid" : "fdc16ac7cae6a10b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279293274,
+        "stop" : 1651279298363,
+        "duration" : 5089
+      }
+    }, {
+      "uid" : "8b5a91b2656cccaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279244179,
+        "stop" : 1651279249277,
+        "duration" : 5098
+      }
+    }, {
+      "uid" : "777f68185b1c26d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279155430,
+        "stop" : 1651279160516,
+        "duration" : 5086
+      }
+    }, {
+      "uid" : "8f9ea6fd75aaf948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651279090596,
+        "stop" : 1651279095680,
+        "duration" : 5084
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6ee58d524194edc.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

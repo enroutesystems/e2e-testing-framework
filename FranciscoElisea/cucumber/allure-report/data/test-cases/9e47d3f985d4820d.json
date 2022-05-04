@@ -1,0 +1,60 @@
+{
+  "uid" : "9e47d3f985d4820d",
+  "name" : "Then check if the director is \"Matt Reeves\"",
+  "fullName" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor..Then check if the director is \"Matt Reeves\"",
+  "historyId" : "96bfbb30b331dcf4af7a1b205c462d28",
+  "time" : {
+    "start" : 1651279148427,
+    "stop" : 1651279148600,
+    "duration" : 173
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testClass",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then check if the director is \"Matt Reeves\""
+  }, {
+    "name" : "package",
+    "value" : "Movie Details Page: Check if the director is Matt Reeves and Robert Pattinson the actor."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e47d3f985d4820d.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

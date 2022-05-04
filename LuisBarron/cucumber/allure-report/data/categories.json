@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toMatch(expected)",
+      "children" : [ {
+        "name" : "Then check if the movie has the genre of \"Drama\"",
+        "uid" : "d10eb8233c8a3fe0",
+        "parentUid" : "5d379c89bc58eb713d2488ec07399b25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651279952453,
+          "stop" : 1651279952769,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-100.0.4896.127" ]
+      } ],
+      "uid" : "5d379c89bc58eb713d2488ec07399b25"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
